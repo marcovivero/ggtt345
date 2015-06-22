@@ -1,0 +1,23 @@
+{
+  "id": "default",
+  "description": "Default settings",
+  "engineFactory": "org.template.textclassification.TextClassificationEngine",
+  "datasource": {
+    "params": {
+      "appName": "application"
+    }
+  },
+  "preparator": {
+    "params": {
+      "nGram": 2
+    }
+  },
+  "algorithms": [
+    {
+      "name": "algorithm",
+      "params": {
+        "lambda": 0.25
+      }
+    }
+  ]
+}
