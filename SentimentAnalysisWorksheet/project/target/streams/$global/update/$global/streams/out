@@ -1,4 +1,4 @@
-[info] Updating {file:/Users/Marco/Galvanize/SentimentAnalysisWorksheet/project/}sentimentanalysisworksheet-build...
+[info] Updating {file:/Users/Marco/Galvanize/ggtt345/SentimentAnalysisWorksheet/project/}sentimentanalysisworksheet-build...
 [debug] :: resolving dependencies :: default#sentimentanalysisworksheet-build;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -1455,19 +1455,19 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.5!apply-macro.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.4!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 2877ms :: artifacts dl 138ms
-[debug] 	report for default#sentimentanalysisworksheet-build;0.1-SNAPSHOT compile produced in /Users/Marco/Galvanize/SentimentAnalysisWorksheet/project/target/resolution-cache/reports/default-sentimentanalysisworksheet-build-compile.xml
-[debug] 	report for default#sentimentanalysisworksheet-build;0.1-SNAPSHOT runtime produced in /Users/Marco/Galvanize/SentimentAnalysisWorksheet/project/target/resolution-cache/reports/default-sentimentanalysisworksheet-build-runtime.xml
-[debug] 	report for default#sentimentanalysisworksheet-build;0.1-SNAPSHOT test produced in /Users/Marco/Galvanize/SentimentAnalysisWorksheet/project/target/resolution-cache/reports/default-sentimentanalysisworksheet-build-test.xml
-[debug] 	report for default#sentimentanalysisworksheet-build;0.1-SNAPSHOT provided produced in /Users/Marco/Galvanize/SentimentAnalysisWorksheet/project/target/resolution-cache/reports/default-sentimentanalysisworksheet-build-provided.xml
-[debug] 	report for default#sentimentanalysisworksheet-build;0.1-SNAPSHOT optional produced in /Users/Marco/Galvanize/SentimentAnalysisWorksheet/project/target/resolution-cache/reports/default-sentimentanalysisworksheet-build-optional.xml
-[debug] 	report for default#sentimentanalysisworksheet-build;0.1-SNAPSHOT compile-internal produced in /Users/Marco/Galvanize/SentimentAnalysisWorksheet/project/target/resolution-cache/reports/default-sentimentanalysisworksheet-build-compile-internal.xml
-[debug] 	report for default#sentimentanalysisworksheet-build;0.1-SNAPSHOT runtime-internal produced in /Users/Marco/Galvanize/SentimentAnalysisWorksheet/project/target/resolution-cache/reports/default-sentimentanalysisworksheet-build-runtime-internal.xml
-[debug] 	report for default#sentimentanalysisworksheet-build;0.1-SNAPSHOT test-internal produced in /Users/Marco/Galvanize/SentimentAnalysisWorksheet/project/target/resolution-cache/reports/default-sentimentanalysisworksheet-build-test-internal.xml
-[debug] 	report for default#sentimentanalysisworksheet-build;0.1-SNAPSHOT plugin produced in /Users/Marco/Galvanize/SentimentAnalysisWorksheet/project/target/resolution-cache/reports/default-sentimentanalysisworksheet-build-plugin.xml
-[debug] 	report for default#sentimentanalysisworksheet-build;0.1-SNAPSHOT sources produced in /Users/Marco/Galvanize/SentimentAnalysisWorksheet/project/target/resolution-cache/reports/default-sentimentanalysisworksheet-build-sources.xml
-[debug] 	report for default#sentimentanalysisworksheet-build;0.1-SNAPSHOT docs produced in /Users/Marco/Galvanize/SentimentAnalysisWorksheet/project/target/resolution-cache/reports/default-sentimentanalysisworksheet-build-docs.xml
-[debug] 	report for default#sentimentanalysisworksheet-build;0.1-SNAPSHOT pom produced in /Users/Marco/Galvanize/SentimentAnalysisWorksheet/project/target/resolution-cache/reports/default-sentimentanalysisworksheet-build-pom.xml
-[debug] 	report for default#sentimentanalysisworksheet-build;0.1-SNAPSHOT scala-tool produced in /Users/Marco/Galvanize/SentimentAnalysisWorksheet/project/target/resolution-cache/reports/default-sentimentanalysisworksheet-build-scala-tool.xml
-[debug] 	resolve done (2877ms resolve - 138ms download)
+[debug] :: resolution report :: resolve 1502ms :: artifacts dl 40ms
+[debug] 	report for default#sentimentanalysisworksheet-build;0.1-SNAPSHOT compile produced in /Users/Marco/Galvanize/ggtt345/SentimentAnalysisWorksheet/project/target/resolution-cache/reports/default-sentimentanalysisworksheet-build-compile.xml
+[debug] 	report for default#sentimentanalysisworksheet-build;0.1-SNAPSHOT runtime produced in /Users/Marco/Galvanize/ggtt345/SentimentAnalysisWorksheet/project/target/resolution-cache/reports/default-sentimentanalysisworksheet-build-runtime.xml
+[debug] 	report for default#sentimentanalysisworksheet-build;0.1-SNAPSHOT test produced in /Users/Marco/Galvanize/ggtt345/SentimentAnalysisWorksheet/project/target/resolution-cache/reports/default-sentimentanalysisworksheet-build-test.xml
+[debug] 	report for default#sentimentanalysisworksheet-build;0.1-SNAPSHOT provided produced in /Users/Marco/Galvanize/ggtt345/SentimentAnalysisWorksheet/project/target/resolution-cache/reports/default-sentimentanalysisworksheet-build-provided.xml
+[debug] 	report for default#sentimentanalysisworksheet-build;0.1-SNAPSHOT optional produced in /Users/Marco/Galvanize/ggtt345/SentimentAnalysisWorksheet/project/target/resolution-cache/reports/default-sentimentanalysisworksheet-build-optional.xml
+[debug] 	report for default#sentimentanalysisworksheet-build;0.1-SNAPSHOT compile-internal produced in /Users/Marco/Galvanize/ggtt345/SentimentAnalysisWorksheet/project/target/resolution-cache/reports/default-sentimentanalysisworksheet-build-compile-internal.xml
+[debug] 	report for default#sentimentanalysisworksheet-build;0.1-SNAPSHOT runtime-internal produced in /Users/Marco/Galvanize/ggtt345/SentimentAnalysisWorksheet/project/target/resolution-cache/reports/default-sentimentanalysisworksheet-build-runtime-internal.xml
+[debug] 	report for default#sentimentanalysisworksheet-build;0.1-SNAPSHOT test-internal produced in /Users/Marco/Galvanize/ggtt345/SentimentAnalysisWorksheet/project/target/resolution-cache/reports/default-sentimentanalysisworksheet-build-test-internal.xml
+[debug] 	report for default#sentimentanalysisworksheet-build;0.1-SNAPSHOT plugin produced in /Users/Marco/Galvanize/ggtt345/SentimentAnalysisWorksheet/project/target/resolution-cache/reports/default-sentimentanalysisworksheet-build-plugin.xml
+[debug] 	report for default#sentimentanalysisworksheet-build;0.1-SNAPSHOT sources produced in /Users/Marco/Galvanize/ggtt345/SentimentAnalysisWorksheet/project/target/resolution-cache/reports/default-sentimentanalysisworksheet-build-sources.xml
+[debug] 	report for default#sentimentanalysisworksheet-build;0.1-SNAPSHOT docs produced in /Users/Marco/Galvanize/ggtt345/SentimentAnalysisWorksheet/project/target/resolution-cache/reports/default-sentimentanalysisworksheet-build-docs.xml
+[debug] 	report for default#sentimentanalysisworksheet-build;0.1-SNAPSHOT pom produced in /Users/Marco/Galvanize/ggtt345/SentimentAnalysisWorksheet/project/target/resolution-cache/reports/default-sentimentanalysisworksheet-build-pom.xml
+[debug] 	report for default#sentimentanalysisworksheet-build;0.1-SNAPSHOT scala-tool produced in /Users/Marco/Galvanize/ggtt345/SentimentAnalysisWorksheet/project/target/resolution-cache/reports/default-sentimentanalysisworksheet-build-scala-tool.xml
+[debug] 	resolve done (1502ms resolve - 40ms download)
 [info] Done updating.

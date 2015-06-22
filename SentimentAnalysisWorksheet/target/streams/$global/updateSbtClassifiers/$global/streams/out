@@ -661,9 +661,9 @@
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-agent;0.13.5!test-agent.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar
 [debug] 	[NOT REQUIRED] org.scala-sbt#apply-macro;0.13.5!apply-macro.jar
-[debug] :: resolution report :: resolve 624ms :: artifacts dl 36ms
-[debug] 	report for io.prediction#sentimentanalysis$sbt_2.10;0.1-SNAPSHOT default produced in /Users/Marco/Galvanize/SentimentAnalysisWorksheet/target/resolution-cache/reports/io.prediction-sentimentanalysis$sbt_2.10-default.xml
-[debug] 	resolve done (624ms resolve - 36ms download)
+[debug] :: resolution report :: resolve 747ms :: artifacts dl 29ms
+[debug] 	report for io.prediction#sentimentanalysis$sbt_2.10;0.1-SNAPSHOT default produced in /Users/Marco/Galvanize/ggtt345/SentimentAnalysisWorksheet/target/resolution-cache/reports/io.prediction-sentimentanalysis$sbt_2.10-default.xml
+[debug] 	resolve done (747ms resolve - 29ms download)
 [debug] Using inline dependencies specified in Scala.
 [debug] :: resolving dependencies :: io.prediction#sentimentanalysis$sources_2.10;0.1-SNAPSHOT
 [debug] 	confs: [default]
@@ -1031,6 +1031,6 @@
 [debug] 	[NOT REQUIRED] com.eed3si9n#sbt-assembly;0.13.0!sbt-assembly.jar(src)
 [debug] 	[NOT REQUIRED] org.scalactic#scalactic_2.10;2.2.1!scalactic_2.10.jar(src)
 [debug] 	[NOT REQUIRED] io.prediction#pio-build;0.9.0!pio-build.jar(src)
-[debug] :: resolution report :: resolve 245ms :: artifacts dl 26ms
-[debug] 	report for io.prediction#sentimentanalysis$sources_2.10;0.1-SNAPSHOT default produced in /Users/Marco/Galvanize/SentimentAnalysisWorksheet/target/resolution-cache/reports/io.prediction-sentimentanalysis$sources_2.10-default.xml
-[debug] 	resolve done (245ms resolve - 26ms download)
+[debug] :: resolution report :: resolve 307ms :: artifacts dl 70ms
+[debug] 	report for io.prediction#sentimentanalysis$sources_2.10;0.1-SNAPSHOT default produced in /Users/Marco/Galvanize/ggtt345/SentimentAnalysisWorksheet/target/resolution-cache/reports/io.prediction-sentimentanalysis$sources_2.10-default.xml
+[debug] 	resolve done (307ms resolve - 70ms download)

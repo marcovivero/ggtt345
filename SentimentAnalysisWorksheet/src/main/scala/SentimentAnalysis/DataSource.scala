@@ -56,12 +56,6 @@ class DataSource (
 ) extends PDataSource[TrainingData, EmptyEvaluationInfo, Query, EmptyActualResult] {
 
 
-  // 1. Use the PEventStore object discussed in lecture. In particular,
-  // use its method "find" to produce an RDD of Events matching the following
-  // fields specified in the data importing stage:
-  // entityType.
-
-  // We have already imported the set of stop words for you as an example.
 
   def readEventData (sc : SparkContext) : TrainingData = {
 
@@ -82,6 +76,7 @@ class DataSource (
     // ----- EXERCISE 1 Start -------
 
     // Get your training observations from event server.
+    // Have provided the definition of specialChars as an example.
     val trainingObservations : RDD[Observation] = {
 
       // Replace the following line with your actual code.
