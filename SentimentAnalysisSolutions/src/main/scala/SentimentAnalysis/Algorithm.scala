@@ -22,7 +22,7 @@ case class AlgorithmParams (
 
 // Auxiliary Class
 
-case class Model(
+class Model(
   pd : PreparedData,
   lambda : Double
 ) extends Serializable {
@@ -69,7 +69,7 @@ class Algorithm (
 
 
   def train (sc : SparkContext, pd : PreparedData) : Model = {
-    Model(pd, ap.lambda)
+    new Model(pd, ap.lambda)
   }
 
   def predict(model : Model, query : Query) : PredictedResult = {

@@ -4,7 +4,7 @@
 		module="sentimentanalysis$sbt_2.10"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20150622142939"
+		publication="20150622161359"
 	/>
 	<configurations>
 		<conf name="default" visibility="public"/>

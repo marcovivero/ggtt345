@@ -4,6 +4,8 @@
 
 package SentimentAnalysis
 
+import java.util.regex.PatternSyntaxException
+
 import io.prediction.controller.Params
 import io.prediction.controller.PPreparator
 import org.apache.spark.SparkContext
@@ -51,37 +53,14 @@ case class PreparedData (
 
 
 
-  // ----- EXERCISE 2 Start -------
-
-  // Implement a function that will remove the special characters that we
-  // imported. Note that these are stored as string in
-  // traininData.specialChars
-
-
-  private def rmChars (text : String) : String = {
-
-    // Replace with your actual code.
-
-    trainingData.specialChars.foldLeft(text)(
-      (B : String, A : String) => B.replaceAll(A, "")
-    )
-  }
-
-  // ----- EXERCISE 2 End -------
-
-
-
-
-
   // This function we have implemented for you. This will
   // serve as our tokenizer, with the added functionality
   // of returning n-grams versus just words.
 
 
   private def tokenize (text : String) : Array[String] = {
-    val newText = rmChars(text) // Use your function to remove unwanted characters.
     (1 until (nGram + 1)).flatMap(
-        k => newText.split(" ").sliding(k).map(_.mkString)
+        k => text.split(" ").sliding(k).map(_.mkString)
     ).toArray
   }
 

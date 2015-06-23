@@ -1,0 +1,542 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.10.4
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+32 items
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/Algorithm.class
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/AlgorithmParams$.class
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/AlgorithmParams.class
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/Model.class
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/DataSource$$anonfun$1.class
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/DataSource$$anonfun$2.class
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/DataSource.class
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/DataSourceParams$.class
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/DataSourceParams.class
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/Observation$.class
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/Observation.class
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/TrainingData$$anonfun$sanityCheck$1.class
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/TrainingData$.class
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/TrainingData.class
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/PredictedResult$.class
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/PredictedResult.class
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/Query$.class
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/Query.class
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/SentimentEngine$.class
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/SentimentEngine.class
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/LabeledNGrams$.class
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/LabeledNGrams.class
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/Preparator.class
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/PreparatorParams$.class
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/PreparatorParams.class
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/PreparedData$$anonfun$1.class
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/PreparedData$$anonfun$2.class
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/PreparedData$$anonfun$SentimentAnalysis$PreparedData$$tokenize$1$$anonfun$apply$1.class
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/PreparedData$$anonfun$SentimentAnalysis$PreparedData$$tokenize$1.class
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/PreparedData$.class
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/PreparedData.class
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Serving.scala -> /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/Serving.class
+binary dependencies:
+22 items
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> /Users/Marco/.ivy2/cache/io.prediction/core_2.10/jars/core_2.10-0.9.3.jar
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> /Users/Marco/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.3.1.jar
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> /Users/Marco/.ivy2/cache/org.apache.spark/spark-mllib_2.10/jars/spark-mllib_2.10-1.3.1.jar
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> /Users/Marco/.sbt/boot/scala-2.10.4/lib/scala-library.jar
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> /Users/Marco/.ivy2/cache/io.prediction/core_2.10/jars/core_2.10-0.9.3.jar
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> /Users/Marco/.ivy2/cache/io.prediction/data_2.10/jars/data_2.10-0.9.3.jar
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> /Users/Marco/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.7.jar
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> /Users/Marco/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.3.1.jar
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> /Users/Marco/.sbt/boot/scala-2.10.4/lib/scala-library.jar
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> /Users/Marco/.ivy2/cache/io.prediction/core_2.10/jars/core_2.10-0.9.3.jar
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> /Users/Marco/.sbt/boot/scala-2.10.4/lib/scala-library.jar
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> /Users/Marco/.ivy2/cache/io.prediction/core_2.10/jars/core_2.10-0.9.3.jar
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> /Users/Marco/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.3.1.jar
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> /Users/Marco/.ivy2/cache/org.apache.spark/spark-mllib_2.10/jars/spark-mllib_2.10-1.3.1.jar
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> /Users/Marco/.sbt/boot/scala-2.10.4/lib/scala-library.jar
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Serving.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Serving.scala -> /Users/Marco/.ivy2/cache/io.prediction/core_2.10/jars/core_2.10-0.9.3.jar
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Serving.scala -> /Users/Marco/.sbt/boot/scala-2.10.4/lib/scala-library.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+8 items
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Serving.scala -> /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+32 items
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> SentimentAnalysis.Algorithm
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> SentimentAnalysis.AlgorithmParams
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> SentimentAnalysis.AlgorithmParams$
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> SentimentAnalysis.Model
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> SentimentAnalysis.DataSource
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> SentimentAnalysis.DataSource$$anonfun$1
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> SentimentAnalysis.DataSource$$anonfun$2
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> SentimentAnalysis.DataSourceParams
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> SentimentAnalysis.DataSourceParams$
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> SentimentAnalysis.Observation
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> SentimentAnalysis.Observation$
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> SentimentAnalysis.TrainingData
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> SentimentAnalysis.TrainingData$
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> SentimentAnalysis.TrainingData$$anonfun$sanityCheck$1
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> SentimentAnalysis.PredictedResult
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> SentimentAnalysis.PredictedResult$
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> SentimentAnalysis.Query
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> SentimentAnalysis.Query$
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> SentimentAnalysis.SentimentEngine
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> SentimentAnalysis.SentimentEngine$
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> SentimentAnalysis.LabeledNGrams
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> SentimentAnalysis.LabeledNGrams$
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> SentimentAnalysis.Preparator
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> SentimentAnalysis.PreparatorParams
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> SentimentAnalysis.PreparatorParams$
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> SentimentAnalysis.PreparedData
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> SentimentAnalysis.PreparedData$
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> SentimentAnalysis.PreparedData$$anonfun$1
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> SentimentAnalysis.PreparedData$$anonfun$2
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> SentimentAnalysis.PreparedData$$anonfun$SentimentAnalysis$PreparedData$$tokenize$1
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> SentimentAnalysis.PreparedData$$anonfun$SentimentAnalysis$PreparedData$$tokenize$1$$anonfun$apply$1
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Serving.scala -> SentimentAnalysis.Serving
+used names:
+305 items
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> &&
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> <init>
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> ==
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> AbstractFunction1
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> Algorithm
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> AlgorithmParams
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> Double
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> Int
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> Model
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> NaiveBayes
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> NaiveBayesModel
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> None
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> PAlgorithm
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> Params
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> PredictedResult
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> PreparedData
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> Product
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> Query
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> ScalaRunTime
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> SentimentAnalysis
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> Serializable
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> SparkContext
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> Statics
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> _toString
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> ap
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> apache
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> asInstanceOf
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> classification
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> controller
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> data
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> eq
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> finalizeHash
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> io
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> isInstanceOf
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> lambda
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> mix
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> mllib
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> model
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> nb
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> org
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> pd
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> predict
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> prediction
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> query
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> runtime
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> scala
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> spark
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> text
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> toDouble
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> toString
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> train
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> transform
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> typedProductIterator
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> ||
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> &&
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> <init>
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> ==
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> AbstractFunction1
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> AbstractFunction2
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> ClassTag
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> DataSource
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> DataSourceParams
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> Double
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> EmptyActualResult
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> EmptyEvaluationInfo
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> HashSet
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> ManifestFactory
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> None
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> Observation
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> PDataSource
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> PEventStore
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> Params
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> Predef
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> Product
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> Query
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> RDD
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> SanityCheck
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> ScalaRunTime
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> SentimentAnalysis
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> Serializable
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> SparkContext
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> Statics
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> String
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> TrainingData
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> Unit
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> _hashCode
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> _toString
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> anyHash
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> apache
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> appName
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> apply
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> asInstanceOf
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> classType
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> collect
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> collection
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> controller
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> data
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> doubleHash
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> dsp
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> eq
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> event
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> finalizeHash
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> find
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> foreach
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> get
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> immutable
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> io
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> isInstanceOf
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> label
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> map
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> materializeClassTag
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> mix
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> org
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> package
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> prediction
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> println
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> properties
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> rdd
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> readEventData
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> reflect
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> runtime
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> sc
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> scala
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> spark
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> specialChars
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> store
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> text
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> toString
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> trainingObservations
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> typedProductIterator
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> x$1
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> x$10
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> x$11
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> x$12
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> x$13
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> x$14
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> x$15
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> x$16
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> x$17
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> x$18
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> x$19
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> x$2
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> x$20
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> x$3
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> x$4
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> x$5
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> x$6
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> x$7
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> x$8
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> x$9
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> ||
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> &&
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> ->
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> <init>
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> ==
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> AbstractFunction1
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> Engine
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> EngineFactory
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> Map
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> None
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> Predef
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> PredictedResult
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> Product
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> Query
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> ScalaRunTime
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> SentimentAnalysis
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> SentimentEngine
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> Serializable
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> String
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> _hashCode
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> _toString
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> any2ArrowAssoc
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> apply
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> asInstanceOf
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> controller
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> eq
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> io
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> isInstanceOf
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> prediction
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> runtime
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> scala
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> sentiment
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> text
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> toString
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> typedProductIterator
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> ||
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Evaluation.scala -> SentimentAnalysis
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> &&
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> +
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> <init>
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> ==
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> AbstractFunction1
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> AbstractFunction2
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> Array
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> ClassTag
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> Double
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> HashSet
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> HashingTF
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> IDF
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> IDFModel
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> IndexedSeq
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> Int
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> LabeledNGrams
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> LabeledPoint
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> None
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> PPreparator
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> Params
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> PatternSyntaxException
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> Predef
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> Preparator
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> PreparatorParams
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> PreparedData
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> Product
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> RDD
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> ScalaRunTime
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> SentimentAnalysis
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> Serializable
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> SparkContext
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> Statics
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> String
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> TrainingData
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> Vector
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> Vectors
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> _toString
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> anyHash
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> apache
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> apply
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> asInstanceOf
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> canBuildFrom
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> collection
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> controller
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> data
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> doubleHash
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> e
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> eq
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> feature
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> finalizeHash
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> fit
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> flatMap
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> hasher
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> idf
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> immutable
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> intWrapper
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> io
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> isInstanceOf
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> java
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> k
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> label
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> linalg
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> map
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> materializeClassTag
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> mix
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> mkString
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> mllib
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> nGram
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> nGrams
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> org
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> package
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> pp
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> prediction
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> rdd
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> refArrayOps
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> regex
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> regression
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> runtime
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> scala
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> sliding
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> spark
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> split
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> text
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> toArray
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> toString
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> tokenize
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> trainingData
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> transform
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> typedProductIterator
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> until
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> util
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> wrapRefArray
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> ||
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Serving.scala -> ->
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Serving.scala -> <init>
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Serving.scala -> HashMap
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Serving.scala -> LServing
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Serving.scala -> Predef
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Serving.scala -> PredictedResult
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Serving.scala -> Query
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Serving.scala -> SentimentAnalysis
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Serving.scala -> Seq
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Serving.scala -> Serving
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Serving.scala -> String
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Serving.scala -> any2ArrowAssoc
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Serving.scala -> apply
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Serving.scala -> collection
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Serving.scala -> controller
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Serving.scala -> head
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Serving.scala -> immutable
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Serving.scala -> io
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Serving.scala -> labelMap
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Serving.scala -> package
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Serving.scala -> pred
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Serving.scala -> prediction
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Serving.scala -> predictions
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Serving.scala -> scala
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Serving.scala -> sentiment
+product stamps:
+32 items
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/Algorithm.class -> lastModified(1435014765000)
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/AlgorithmParams$.class -> lastModified(1435014765000)
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/AlgorithmParams.class -> lastModified(1435014765000)
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/DataSource$$anonfun$1.class -> lastModified(1435014001000)
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/DataSource$$anonfun$2.class -> lastModified(1435014001000)
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/DataSource.class -> lastModified(1435014001000)
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/DataSourceParams$.class -> lastModified(1435014001000)
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/DataSourceParams.class -> lastModified(1435014001000)
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/LabeledNGrams$.class -> lastModified(1435014603000)
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/LabeledNGrams.class -> lastModified(1435014603000)
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/Model.class -> lastModified(1435014765000)
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/Observation$.class -> lastModified(1435014001000)
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/Observation.class -> lastModified(1435014001000)
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/PredictedResult$.class -> lastModified(1435014765000)
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/PredictedResult.class -> lastModified(1435014765000)
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/Preparator.class -> lastModified(1435014603000)
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/PreparatorParams$.class -> lastModified(1435014603000)
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/PreparatorParams.class -> lastModified(1435014603000)
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/PreparedData$$anonfun$1.class -> lastModified(1435014603000)
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/PreparedData$$anonfun$2.class -> lastModified(1435014603000)
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/PreparedData$$anonfun$SentimentAnalysis$PreparedData$$tokenize$1$$anonfun$apply$1.class -> lastModified(1435014603000)
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/PreparedData$$anonfun$SentimentAnalysis$PreparedData$$tokenize$1.class -> lastModified(1435014603000)
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/PreparedData$.class -> lastModified(1435014603000)
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/PreparedData.class -> lastModified(1435014603000)
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/Query$.class -> lastModified(1435014765000)
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/Query.class -> lastModified(1435014765000)
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/SentimentEngine$.class -> lastModified(1435014765000)
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/SentimentEngine.class -> lastModified(1435014765000)
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/Serving.class -> lastModified(1435013600000)
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/TrainingData$$anonfun$sanityCheck$1.class -> lastModified(1435014001000)
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/TrainingData$.class -> lastModified(1435014001000)
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/classes/SentimentAnalysis/TrainingData.class -> lastModified(1435014001000)
+source stamps:
+6 items
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> hash(99bdbb829e1d3cc01ca470704b7497a9b1d27845)
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> hash(37d136446bd2484dceac5ed9ce2d442f031406e2)
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> hash(38a98b3b351ae4b1c720d8beeaee1f5e8149eae2)
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Evaluation.scala -> hash(58e02e5f04484f61aced2ac9b61c4402250e0086)
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> hash(280503acdeccdb01f5a0f7bd9062b79a225b2b88)
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Serving.scala -> hash(c05fe78d9ebef068c42d1eb8cf82d9335af59dbf)
+binary stamps:
+7 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1428689516000)
+/Users/Marco/.ivy2/cache/io.prediction/core_2.10/jars/core_2.10-0.9.3.jar -> lastModified(1432113185000)
+/Users/Marco/.ivy2/cache/io.prediction/data_2.10/jars/data_2.10-0.9.3.jar -> lastModified(1432113202000)
+/Users/Marco/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.7.jar -> lastModified(1421023878000)
+/Users/Marco/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.3.1.jar -> lastModified(1428727559000)
+/Users/Marco/.ivy2/cache/org.apache.spark/spark-mllib_2.10/jars/spark-mllib_2.10-1.3.1.jar -> lastModified(1428727567000)
+/Users/Marco/.sbt/boot/scala-2.10.4/lib/scala-library.jar -> lastModified(1395179187000)
+class names:
+7 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_45.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
+/Users/Marco/.ivy2/cache/io.prediction/core_2.10/jars/core_2.10-0.9.3.jar -> io.prediction.controller.EngineFactory
+/Users/Marco/.ivy2/cache/io.prediction/data_2.10/jars/data_2.10-0.9.3.jar -> io.prediction.data.storage.DataMap
+/Users/Marco/.ivy2/cache/joda-time/joda-time/jars/joda-time-2.7.jar -> org.joda.time.DateTime
+/Users/Marco/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.3.1.jar -> org.apache.spark.SparkContext$
+/Users/Marco/.ivy2/cache/org.apache.spark/spark-mllib_2.10/jars/spark-mllib_2.10-1.3.1.jar -> org.apache.spark.mllib.classification.NaiveBayes
+/Users/Marco/.sbt/boot/scala-2.10.4/lib/scala-library.jar -> scala.Product
+internal apis:
+6 items
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCBbROJAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAKnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cFYX8r50AAZub3RpZnlzcQB+AAxzthXmdAAEd2FpdHNxAH4ADFXMwk90AA0kYXNJbnN0YW5jZU9mc3EAfgAMcuixFHQADGJhdGNoUHJlZGljdHNxAH4ADMZQiPV0AAtwcmVkaWN0QmFzZXNxAH4ADGuN+tx0AAxwcm9kdWN0QXJpdHlzcQB+AAxf4GqZdAATbWFrZVBlcnNpc3RlbnRNb2RlbHNxAH4ADGl73RJ0AAZlcXVhbHNzcQB+AAzyZLcBdAAPQWxnb3JpdGhtUGFyYW1zc3EAfgAMIJ84b3QADGFzSW5zdGFuY2VPZnNxAH4ADFDrq0N0AAZsYW1iZGFzcQB+AAyS354LdAAMc3luY2hyb25pemVkc3EAfgAMczKzE3QADSRpc0luc3RhbmNlT2ZzcQB+AAyETmBwdAAQYmF0Y2hQcmVkaWN0QmFzZXNxAH4ADM0dwMF0ABhnc29uVHlwZUFkYXB0ZXJGYWN0b3JpZXNzcQB+AAwE+usidAAIY2FuRXF1YWxzcQB+AAwvTyuCdAAKcXVlcnlDbGFzc3NxAH4ADFSpyUp0AA9xdWVyeVNlcmlhbGl6ZXJzcQB+AAze5pjOdAANcHJvZHVjdFByZWZpeHNxAH4ADM+FN2t0AAlub3RpZnlBbGxzcQB+AAzrJkH3dAAFTW9kZWxzcQB+AAw1joPAdAACbmJzcQB+AAwSsPdjdAAMaXNJbnN0YW5jZU9mc3EAfgAMklk9qnQABjxpbml0PnNxAH4ADBQi3jd0AAl0cmFpbkJhc2VzcQB+AAzS9itDdAACPT1zcQB+AAxkwFpUdAAFY2xvbmVzcQB+AAx1qlFOdAAEY29weXNxAH4ADIcFTUB0AAh0b1N0cmluZ3NxAH4ADASJKTN0AAIhPXNxAH4ADHNce/d0AAV0cmFpbnNxAH4ADKxe1zV0AAdwcmVkaWN0c3EAfgAMC2/na3QACGdldENsYXNzc3EAfgAMSUMvcnQADmNvcHkkZGVmYXVsdCQxc3EAfgAMLdHVNXQACUFsZ29yaXRobXNxAH4ADKdrIX90AAJuZXNxAH4ADGMgjkF0AAJlcXNxAH4ADEZEIPN0AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAzH6jVgdAACIyNzcQB+AAwJFM8VdAAIZmluYWxpemVzcQB+AAy27p/hdAAOcHJvZHVjdEVsZW1lbnRzcQB+AAwGJLpHdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAADc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBreHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAhU2VudGltZW50QW5hbHlzaXMuQWxnb3JpdGhtUGFyYW1zdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHABc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHBzcQB+AIMBc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AGtMAAlpbmhlcml0ZWRxAH4Aa0wAB3BhcmVudHNxAH4Aa3hxAH4AinNxAH4AgwF1cQB+AGYAAAAAcHNxAH4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
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHB36/i6AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAALHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cD83BA10AAxzcGVjaWFsQ2hhcnNzcQB+AAy7OWpKdAAMcmVhZEV2YWxCYXNlc3EAfgAM3Cpn13QADXJlYWRFdmVudERhdGFzcQB+AAya8CDVdAAGbm90aWZ5c3EAfgAMG95ZMnQABHJlYWRzcQB+AAw6ZoPgdAAMVHJhaW5pbmdEYXRhc3EAfgAM43sWSnQABHdhaXRzcQB+AAyZUzLbdAAOY29weSRkZWZhdWx0JDJzcQB+AAzHSnuIdAANJGFzSW5zdGFuY2VPZnNxAH4ADAwWdAl0AAxwcm9kdWN0QXJpdHlzcQB+AAwMEV5pdAAGZXF1YWxzc3EAfgAMrr7/G3QAEERhdGFTb3VyY2VQYXJhbXNzcQB+AAxGz4AFdAAHYXBwTmFtZXNxAH4ADLOkcnV0AAxhc0luc3RhbmNlT2ZzcQB+AAwx9oZAdAAEZGF0YXNxAH4ADLhHU+t0AAxzeW5jaHJvbml6ZWRzcQB+AAynAUnFdAAFbGFiZWxzcQB+AAxh8Ck4dAANJGlzSW5zdGFuY2VPZnNxAH4ADGWjyF50AAtzYW5pdHlDaGVja3NxAH4ADI+Y/TZ0AAhyZWFkRXZhbHNxAH4ADHFh5Pt0AAR0ZXh0c3EAfgAMS2XwrHQACGNhbkVxdWFsc3EAfgAMkl02c3QAC09ic2VydmF0aW9uc3EAfgAMCysfEHQADXByb2R1Y3RQcmVmaXhzcQB+AAy9xXpIdAAJbm90aWZ5QWxsc3EAfgAMoHq2kHQADGlzSW5zdGFuY2VPZnNxAH4ADIN+zXJ0AAY8aW5pdD5zcQB+AAxfj/cAdAACPT1zcQB+AAzKOXH8dAAFY2xvbmVzcQB+AAyM+rs1dAAEY29weXNxAH4ADD/7B/10AAh0b1N0cmluZ3NxAH4ADJciGCV0AAIhPXNxAH4ADGnYQfV0AAhnZXRDbGFzc3NxAH4ADGxMalx0AA5jb3B5JGRlZmF1bHQkMXNxAH4ADM7q35B0AAJuZXNxAH4ADDcD59t0AAJlcXNxAH4ADHS96Z50AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAygc4MfdAAQcmVhZFRyYWluaW5nQmFzZXNxAH4ADKFpKPd0AAIjI3NxAH4ADImm0Yx0AApEYXRhU291cmNlc3EAfgAMsFB9b3QACGZpbmFsaXplc3EAfgAMI4pd9XQADHJlYWRUcmFpbmluZ3NxAH4ADBp3yzV0AA5wcm9kdWN0RWxlbWVudHNxAH4ADBkGzit0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAARzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AG94cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ACJTZW50aW1lbnRBbmFseXNpcy5EYXRhU291cmNlUGFyYW1zdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHABc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHBzcQB+AIcBc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AG9MAAlpbmhlcml0ZWRxAH4Ab0wAB3BhcmVudHN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HAXVxAH4AagAAAABwc3EAfgCHAXVxAH4AmAAAAAdzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AJtbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AI1zcQB+AJp0AAtQRGF0YVNvdXJjZXNxAH4AnnNxAH4AoXVxAH4ApAAAAARzcQB+AKZ0AAJpb3NxAH4ApnQACnByZWRpY3Rpb25zcQB+AKZ0AApjb250cm9sbGVycQB+AKt1cQB+AJgAAAAEc3EAfgCadAAMVHJhaW5pbmdEYXRhc3EAfgCec3EAfgChdXEAfgCkAAAAAnNxAH4ApnQAEVNlbnRpbWVudEFuYWx5c2lzcQB+AKtzcQB+AJp0ABFTZXJpYWxpemFibGVDbGFzc3NxAH4AmnQAB3BhY2thZ2VzcQB+AJp0AApjb250cm9sbGVyc3EAfgCadAAKcHJlZGljdGlvbnNxAH4AmnQAAmlvc3EAfgCec3EAfgChdXEAfgCkAAAAAXEAfgCrc3EAfgCadAAFUXVlcnlxAH4BQ3NxAH4AmnQAEVNlcmlhbGl6YWJsZUNsYXNzcQB+AUpzcQB+ATJzcQB+AJp0AA5CYXNlRGF0YVNvdXJjZXNxAH4AnnNxAH4AoXVxAH4ApAAAAARzcQB+AKZ0AAJpb3NxAH4ApnQACnByZWRpY3Rpb25zcQB+AKZ0AARjb3JlcQB+AKt1cQB+AJgAAAAEcQB+AUFxAH4BSHEAfgFVcQB+AVdzcQB+AJp0AAxBYnN0cmFjdERvZXJxAH4BXHNxAH4AmnEAfgC6c3EAfgCec3EAfgChdXEAfgCkAAAAAnNxAH4ApnEAfgCpcQB+AKtzcQB+AJpxAH4AunNxAH4AnnNxAH4AoXVxAH4ApAAAAANzcQB+AKZxAH4AwHNxAH4ApnQAAmlvcQB+AKtzcQB+AJpxAH4AxHNxAH4AnnNxAH4AoXVxAH4ApAAAAANzcQB+AKZxAH4AwHNxAH4ApnEAfgDKcQB+AKtzcQB+AJpxAH4AzHEAfgFpcHB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0ABFTZW50aW1lbnRBbmFseXNpc3NyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTh1/6VJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABTL1VzZXJzL01hcmNvL0dhbHZhbml6ZS9nZ3R0MzQ1L1NlbnRpbWVudEFuYWx5c2lzU29sdXRpb25zL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQ30TZEa9JITc6sXtnOLUQvAxQG4g==
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAOzfZxAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAInNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cABmjZ90AAZub3RpZnlzcQB+AAx8a9/ddAAEd2FpdHNxAH4ADK5EVzx0AA0kYXNJbnN0YW5jZU9mc3EAfgAMfomjl3QADHByb2R1Y3RBcml0eXNxAH4ADGlK9A90AAZlcXVhbHNzcQB+AAxdzH3ZdAAMYXNJbnN0YW5jZU9mc3EAfgAMZTZ21HQACXNlbnRpbWVudHNxAH4ADEoy+AN0AAxlbmdpbmVQYXJhbXNzcQB+AAwlHAeadAAMc3luY2hyb25pemVkc3EAfgAMTDWkDHQAD1NlbnRpbWVudEVuZ2luZXNxAH4ADNJHnpx0AA0kaXNJbnN0YW5jZU9mc3EAfgAMpN6KvXQABHRleHRzcQB+AAzRHSc+dAAIY2FuRXF1YWxzcQB+AAxYF2GhdAAFUXVlcnlzcQB+AAzmDi9cdAANcHJvZHVjdFByZWZpeHNxAH4ADKoryHN0AAlub3RpZnlBbGxzcQB+AAwde7UydAAMaXNJbnN0YW5jZU9mc3EAfgAMzQEf33QABjxpbml0PnNxAH4ADEU6A2h0AAVhcHBseXNxAH4ADHjKqDt0AA9QcmVkaWN0ZWRSZXN1bHRzcQB+AAzscK5mdAACPT1zcQB+AAzimnxOdAAFY2xvbmVzcQB+AAwatPzNdAAEY29weXNxAH4ADLPqRGp0AAh0b1N0cmluZ3NxAH4ADD6vPzx0AAIhPXNxAH4ADLxohM50AAhnZXRDbGFzc3NxAH4ADBkrwIN0AA5jb3B5JGRlZmF1bHQkMXNxAH4ADGlumQt0AAJuZXNxAH4ADN/CnIN0AAJlcXNxAH4ADH/WGjR0AA9wcm9kdWN0SXRlcmF0b3JzcQB+AAyohtd7dAACIyNzcQB+AAybcPygdAAIZmluYWxpemVzcQB+AAxf5+wUdAAOcHJvZHVjdEVsZW1lbnRzcQB+AAxkZ9GsdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAADc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBbeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAXU2VudGltZW50QW5hbHlzaXMuUXVlcnl1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cAFzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwcHNxAH4AcwFzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AW0wACWluaGVyaXRlZHEAfgBbTAAHcGFyZW50c3EAfgBbeHEAfgB6c3EAfgBzAXVxAH4AVgAAAABwc3EAfgBzAXVxAH4AVgAAAABwc3EAfgBzAXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAGc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AeXQADFNlcmlhbGl6YWJsZXNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9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
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Evaluation.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAjwYH2AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAAHNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAXNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwdAARU2VudGltZW50QW5hbHlzaXNzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAU4decT6dXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgAVTAAPc291cmNlRGlyZWN0b3J5cQB+ABV4cHQAUy9Vc2Vycy9NYXJjby9HYWx2YW5pemUvZ2d0dDM0NS9TZW50aW1lbnRBbmFseXNpc1NvbHV0aW9ucy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUWOAuXwRIT2Gs7SrJthxEAiUOAIY=
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAsd3gSAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAK3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cBSm5qR0AAZub3RpZnlzcQB+AAzBVTTgdAAGbkdyYW1zc3EAfgAMD+u65HQABHdhaXRzcQB+AAxz2icHdAAOY29weSRkZWZhdWx0JDJzcQB+AAyvMB+qdAANJGFzSW5zdGFuY2VPZnNxAH4ADGgu1ip0AAxwcm9kdWN0QXJpdHlzcQB+AAzLrRwjdAAGZXF1YWxzc3EAfgAMKCfDLHQADHRyYWluaW5nRGF0YXNxAH4ADHsMQNN0AAxhc0luc3RhbmNlT2ZzcQB+AAytpBTwdAAIdG9rZW5pemVzcQB+AAz0d9GBdAAHcHJlcGFyZXNxAH4ADAMQEUR0AARkYXRhc3EAfgAMeAopknQADHN5bmNocm9uaXplZHNxAH4ADF/osed0AAVsYWJlbHNxAH4ADLy93VR0AA0kaXNJbnN0YW5jZU9mc3EAfgAMKqRp73QAC3ByZXBhcmVCYXNlc3EAfgAMm7Eku3QABmhhc2hlcnNxAH4ADERBDiJ0AAhjYW5FcXVhbHNxAH4ADJwbWp50AA1wcm9kdWN0UHJlZml4c3EAfgAMwVXlAHQACW5vdGlmeUFsbHNxAH4ADH81q990AAxpc0luc3RhbmNlT2ZzcQB+AAxcCPg0dAAGPGluaXQ+c3EAfgAMGAFQQHQAAj09c3EAfgAM2Eepu3QADFByZXBhcmVkRGF0YXNxAH4ADGXIF1x0AAVjbG9uZXNxAH4ADOQr9ml0AARjb3B5c3EAfgAMFtEJ63QAClByZXBhcmF0b3JzcQB+AAzNIsG7dAADaWRmc3EAfgAM2zH1EnQABW5HcmFtc3EAfgAMOqsbY3QACHRvU3RyaW5nc3EAfgAML9ELNXQAAiE9c3EAfgAM/kQAo3QACGdldENsYXNzc3EAfgAMx+AIvnQADmNvcHkkZGVmYXVsdCQxc3EAfgAMNb0un3QAAm5lc3EAfgAMHdate3QADUxhYmVsZWROR3JhbXNzcQB+AAxAtOJedAAJdHJhbnNmb3Jtc3EAfgAMnHGi03QAEFByZXBhcmF0b3JQYXJhbXNzcQB+AAypRsxKdAACZXFzcQB+AAzhAHzFdAAPcHJvZHVjdEl0ZXJhdG9yc3EAfgAMEiaWFnQAAiMjc3EAfgAMHiCdD3QACGZpbmFsaXplc3EAfgAMfCxGhnQADnByb2R1Y3RFbGVtZW50c3EAfgAMb1T/anQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAABHNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AbXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAIlNlbnRpbWVudEFuYWx5c2lzLlByZXBhcmF0b3JQYXJhbXN1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cAFzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwcHNxAH4AhQFzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AbUwACWluaGVyaXRlZHEAfgBtTAAHcGFyZW50c3EAfgBteHEAfgCMc3EAfgCFAXVxAH4AaAAAAABwc3EAfgCFAXVxAH4AaAA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
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Serving.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHByvsixAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGnNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cBY8dT90AAZub3RpZnlzcQB+AAy33R6tdAAKc3VwcGxlbWVudHNxAH4ADJEBt9B0AAR3YWl0c3EAfgAMlfLpuXQADSRhc0luc3RhbmNlT2ZzcQB+AAym3QeFdAAGZXF1YWxzc3EAfgAMuF1PonQABXNlcnZlc3EAfgAMIIDA2HQADGFzSW5zdGFuY2VPZnNxAH4ADEbs5oV0AAxzeW5jaHJvbml6ZWRzcQB+AAzBMjq+dAANJGlzSW5zdGFuY2VPZnNxAH4ADBS3c190AAlub3RpZnlBbGxzcQB+AAyGiVlMdAAMaXNJbnN0YW5jZU9mc3EAfgAM8wqi53QADnN1cHBsZW1lbnRCYXNlc3EAfgAMUuDU0HQABjxpbml0PnNxAH4ADBhSHBt0AAI9PXNxAH4ADOdlE3x0AAVjbG9uZXNxAH4ADLC82a10AAh0b1N0cmluZ3NxAH4ADCx0qWh0AAIhPXNxAH4ADKXjWTN0AAlzZXJ2ZUJhc2VzcQB+AAzzlsMrdAAIZ2V0Q2xhc3NzcQB+AAwx1vHfdAACbmVzcQB+AAyQHdbFdAAHU2VydmluZ3NxAH4ADLsvHO50AAJlcXNxAH4ADIZHVTt0AAIjI3NxAH4ADMLgj3Z0AAhmaW5hbGl6ZXNxAH4ADEp9Ur10AAhsYWJlbE1hcHNxAH4ADPvCB7x0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEt4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ABlTZW50aW1lbnRBbmFseXNpcy5TZXJ2aW5ndXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAABdAAlaW8ucHJlZGljdGlvbi5hbm5vdGF0aW9uLkV4cGVyaW1lbnRhbHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AZXhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AZABwc3EAfgBpc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEtMAAlpbmhlcml0ZWRxAH4AS0wAB3BhcmVudHNxAH4AS3hxAH4AbXNxAH4AZABwc3EAfgBpdXEAfgBGAAAAAHNxAH4AZABwc3EAfgBpdXEAfgBGAAAAAHNxAH4AZABwc3EAfgBpdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAdzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBldAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO1sADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AbHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHEAfgB+eHEAfgBsdAAITFNlcnZpbmdzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGxzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAARzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQAAmlvc3EAfgCMdAAKcHJlZGljdGlvbnNxAH4AjHQACmNvbnRyb2xsZXJzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AjXVxAH4AewAAAAJzcQB+AIF0AAVRdWVyeXNxAH4AhHNxAH4Ah3VxAH4AigAAAAJzcQB+AIx0ABFTZW50aW1lbnRBbmFseXNpc3EAfgCVc3EAfgCBdAAPUHJlZGljdGVkUmVzdWx0cQB+AJlzcQB+AH1zcQB+AIF0AAtCYXNlU2VydmluZ3NxAH4AhHNxAH4Ah3VxAH4AigAAAARzcQB+AIx0AAJpb3NxAH4AjHQACnByZWRpY3Rpb25zcQB+AIx0AARjb3JlcQB+AJV1cQB+AHsAAAACcQB+AJdxAH4AnnNxAH4AgXQADEFic3RyYWN0RG9lcnEAfgCjc3EAfgCBdAAMU2VyaWFsaXphYmxlc3EAfgCEc3EAfgCHdXEAfgCKAAAAAnNxAH4AjHQABXNjYWxhcQB+AJVzcQB+AIFxAH4AsHNxAH4AhHNxAH4Ah3VxAH4AigAAAANzcQB+AIx0AARqYXZhc3EAfgCMdAACaW9xAH4AlXNxAH4AgXQABk9iamVjdHNxAH4AhHNxAH4Ah3VxAH4AigAAAANzcQB+AIxxAH4Au3NxAH4AjHQABGxhbmdxAH4AlXNxAH4AgXQAA0FueXEAfgCxdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAFzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAARU2VudGltZW50QW5hbHlzaXNzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAU4decT6dXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAUy9Vc2Vycy9NYXJjby9HYWx2YW5pemUvZ2d0dDM0NS9TZW50aW1lbnRBbmFseXNpc1NvbHV0aW9ucy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUwF/njZ6+8GjELR64z4LZM1r1nb8=
+external apis:
+0 items
+source infos:
+6 items
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala -> 
+AAAAAAAAAAA=
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala -> 
+AAAAAAAAAAA=
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Engine.scala -> 
+AAAAAAAAAAA=
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Evaluation.scala -> 
+AAAAAAAAAAA=
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala -> 
+AAAAAAAAAAA=
+/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Serving.scala -> 
+AAAAAAAAAAA=
+compilations:
+7 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTh15xPp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUy9Vc2Vycy9NYXJjby9HYWx2YW5pemUvZ2d0dDM0NS9TZW50aW1lbnRBbmFseXNpc1NvbHV0aW9ucy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+1 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTh1/2Ft1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUy9Vc2Vycy9NYXJjby9HYWx2YW5pemUvZ2d0dDM0NS9TZW50aW1lbnRBbmFseXNpc1NvbHV0aW9ucy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+2 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTh1/6VJ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUy9Vc2Vycy9NYXJjby9HYWx2YW5pemUvZ2d0dDM0NS9TZW50aW1lbnRBbmFseXNpc1NvbHV0aW9ucy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+3 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTh2Et2R1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUy9Vc2Vycy9NYXJjby9HYWx2YW5pemUvZ2d0dDM0NS9TZW50aW1lbnRBbmFseXNpc1NvbHV0aW9ucy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+4 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTh2JD8x1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUy9Vc2Vycy9NYXJjby9HYWx2YW5pemUvZ2d0dDM0NS9TZW50aW1lbnRBbmFseXNpc1NvbHV0aW9ucy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+5 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTh2Lhk91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUy9Vc2Vycy9NYXJjby9HYWx2YW5pemUvZ2d0dDM0NS9TZW50aW1lbnRBbmFseXNpc1NvbHV0aW9ucy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==
+6 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTh2LlHl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAUy9Vc2Vycy9NYXJjby9HYWx2YW5pemUvZ2d0dDM0NS9TZW50aW1lbnRBbmFseXNpc1NvbHV0aW9ucy90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==

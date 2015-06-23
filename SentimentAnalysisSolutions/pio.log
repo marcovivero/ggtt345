@@ -1,0 +1,527 @@
+2015-06-22 15:51:43,124 INFO  io.prediction.tools.console.App$ [main] - Initialized Event Store for this app ID: 9.
+2015-06-22 15:51:43,146 INFO  io.prediction.tools.console.App$ [main] - Created new app:
+2015-06-22 15:51:43,146 INFO  io.prediction.tools.console.App$ [main] -       Name: application
+2015-06-22 15:51:43,147 INFO  io.prediction.tools.console.App$ [main] -         ID: 9
+2015-06-22 15:51:43,147 INFO  io.prediction.tools.console.App$ [main] - Access Key: pDUg55z681EG1mPnNjAOCEz9qm3y3NzXGRPxIfu4yAqBJseD9WMvHTqn1HuNf5i9
+2015-06-22 15:52:11,661 INFO  io.prediction.tools.Runner$ [main] - Submission command: /usr/local/Cellar/apache-spark/1.3.1_1/bin/spark-submit --class io.prediction.tools.imprt.FileToEvents --files file:/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/conf/log4j.properties --driver-class-path /Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/conf file:/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/lib/pio-assembly-0.9.4-SNAPSHOT.jar --appid 9 --input file:/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/data/training.json --env PIO_ENV_LOADED=1,PIO_STORAGE_REPOSITORIES_METADATA_NAME=pio_meta,PIO_FS_BASEDIR=/Users/Marco/.pio_store,PIO_HOME=/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT,PIO_FS_ENGINESDIR=/Users/Marco/.pio_store/engines,PIO_STORAGE_SOURCES_PGSQL_URL=jdbc:postgresql://localhost/pio,PIO_STORAGE_REPOSITORIES_METADATA_SOURCE=PGSQL,PIO_STORAGE_REPOSITORIES_MODELDATA_SOURCE=PGSQL,PIO_STORAGE_REPOSITORIES_EVENTDATA_NAME=pio_event,PIO_STORAGE_SOURCES_PGSQL_PASSWORD=pio,PIO_STORAGE_SOURCES_PGSQL_TYPE=jdbc,PIO_FS_TMPDIR=/Users/Marco/.pio_store/tmp,PIO_STORAGE_SOURCES_PGSQL_USERNAME=pio,PIO_STORAGE_REPOSITORIES_MODELDATA_NAME=pio_model,PIO_STORAGE_REPOSITORIES_EVENTDATA_SOURCE=PGSQL,PIO_CONF_DIR=/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/conf
+2015-06-22 15:52:14,737 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-3] - Starting remoting
+2015-06-22 15:52:14,916 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-3] - Remoting started; listening on addresses :[akka.tcp://sparkDriver@10.0.0.30:63802]
+2015-06-22 15:52:29,474 INFO  io.prediction.tools.imprt.FileToEvents$ [main] - Events are imported.
+2015-06-22 15:52:29,475 INFO  io.prediction.tools.imprt.FileToEvents$ [main] - Done.
+2015-06-22 15:52:40,930 INFO  io.prediction.tools.Runner$ [main] - Submission command: /usr/local/Cellar/apache-spark/1.3.1_1/bin/spark-submit --class io.prediction.tools.imprt.FileToEvents --files file:/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/conf/log4j.properties --driver-class-path /Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/conf file:/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/lib/pio-assembly-0.9.4-SNAPSHOT.jar --appid 9 --input file:/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/data/special.json --env PIO_ENV_LOADED=1,PIO_STORAGE_REPOSITORIES_METADATA_NAME=pio_meta,PIO_FS_BASEDIR=/Users/Marco/.pio_store,PIO_HOME=/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT,PIO_FS_ENGINESDIR=/Users/Marco/.pio_store/engines,PIO_STORAGE_SOURCES_PGSQL_URL=jdbc:postgresql://localhost/pio,PIO_STORAGE_REPOSITORIES_METADATA_SOURCE=PGSQL,PIO_STORAGE_REPOSITORIES_MODELDATA_SOURCE=PGSQL,PIO_STORAGE_REPOSITORIES_EVENTDATA_NAME=pio_event,PIO_STORAGE_SOURCES_PGSQL_PASSWORD=pio,PIO_STORAGE_SOURCES_PGSQL_TYPE=jdbc,PIO_FS_TMPDIR=/Users/Marco/.pio_store/tmp,PIO_STORAGE_SOURCES_PGSQL_USERNAME=pio,PIO_STORAGE_REPOSITORIES_MODELDATA_NAME=pio_model,PIO_STORAGE_REPOSITORIES_EVENTDATA_SOURCE=PGSQL,PIO_CONF_DIR=/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/conf
+2015-06-22 15:52:43,918 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-3] - Starting remoting
+2015-06-22 15:52:44,082 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-3] - Remoting started; listening on addresses :[akka.tcp://sparkDriver@10.0.0.30:63809]
+2015-06-22 15:52:46,430 INFO  io.prediction.tools.imprt.FileToEvents$ [main] - Events are imported.
+2015-06-22 15:52:46,431 INFO  io.prediction.tools.imprt.FileToEvents$ [main] - Done.
+2015-06-22 15:52:56,859 WARN  io.prediction.tools.console.Template$ [main] - template.json does not exist. Template metadata will not be available. (This is safe to ignore if you are not working on a template.)
+2015-06-22 15:52:56,921 INFO  io.prediction.tools.console.Console$ [main] - Using command '/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/sbt/sbt' at the current working directory to build.
+2015-06-22 15:52:56,921 INFO  io.prediction.tools.console.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-06-22 15:52:56,922 INFO  io.prediction.tools.console.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.9.4-SNAPSHOT.jar is absent.
+2015-06-22 15:52:56,923 INFO  io.prediction.tools.console.Console$ [main] - Going to run: /Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/sbt/sbt  package assemblyPackageDependency
+2015-06-22 15:53:23,747 INFO  io.prediction.tools.console.Console$ [main] - Build finished successfully.
+2015-06-22 15:53:23,748 INFO  io.prediction.tools.console.Console$ [main] - Looking for an engine...
+2015-06-22 15:53:23,755 INFO  io.prediction.tools.console.Console$ [main] - Found SentimentAnalysis-assembly-0.1-SNAPSHOT-deps.jar
+2015-06-22 15:53:23,755 INFO  io.prediction.tools.console.Console$ [main] - Found sentimentanalysis_2.10-0.1-SNAPSHOT.jar
+2015-06-22 15:53:24,527 INFO  io.prediction.tools.RegisterEngine$ [main] - Registering engine NQe7lKFnNo8SGNfw4d5EzQT31JOeilUy aa1327e930bc9a1976f78a49cc7dd997a272c84c
+2015-06-22 15:53:24,547 INFO  io.prediction.tools.console.Console$ [main] - Your engine is ready for training.
+2015-06-22 15:53:27,524 INFO  io.prediction.tools.console.Console$ [main] - Using existing engine manifest JSON at /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/manifest.json
+2015-06-22 15:53:27,528 WARN  io.prediction.tools.console.Template$ [main] - template.json does not exist. Template metadata will not be available. (This is safe to ignore if you are not working on a template.)
+2015-06-22 15:53:28,347 INFO  io.prediction.tools.Runner$ [main] - Submission command: /usr/local/Cellar/apache-spark/1.3.1_1/bin/spark-submit --class io.prediction.workflow.CreateWorkflow --jars file:/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/SentimentAnalysis-assembly-0.1-SNAPSHOT-deps.jar,file:/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/sentimentanalysis_2.10-0.1-SNAPSHOT.jar --files file:/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/conf/log4j.properties --driver-class-path /Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/conf file:/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/lib/pio-assembly-0.9.4-SNAPSHOT.jar --engine-id NQe7lKFnNo8SGNfw4d5EzQT31JOeilUy --engine-version aa1327e930bc9a1976f78a49cc7dd997a272c84c --engine-variant file:/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/engine.json --verbosity 0 --json-extractor Both --env PIO_ENV_LOADED=1,PIO_STORAGE_REPOSITORIES_METADATA_NAME=pio_meta,PIO_FS_BASEDIR=/Users/Marco/.pio_store,PIO_HOME=/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT,PIO_FS_ENGINESDIR=/Users/Marco/.pio_store/engines,PIO_STORAGE_SOURCES_PGSQL_URL=jdbc:postgresql://localhost/pio,PIO_STORAGE_REPOSITORIES_METADATA_SOURCE=PGSQL,PIO_STORAGE_REPOSITORIES_MODELDATA_SOURCE=PGSQL,PIO_STORAGE_REPOSITORIES_EVENTDATA_NAME=pio_event,PIO_STORAGE_SOURCES_PGSQL_PASSWORD=pio,PIO_STORAGE_SOURCES_PGSQL_TYPE=jdbc,PIO_FS_TMPDIR=/Users/Marco/.pio_store/tmp,PIO_STORAGE_SOURCES_PGSQL_USERNAME=pio,PIO_STORAGE_REPOSITORIES_MODELDATA_NAME=pio_model,PIO_STORAGE_REPOSITORIES_EVENTDATA_SOURCE=PGSQL,PIO_CONF_DIR=/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/conf
+2015-06-22 15:54:07,850 INFO  io.prediction.tools.console.Console$ [main] - Using existing engine manifest JSON at /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/manifest.json
+2015-06-22 15:54:07,861 WARN  io.prediction.tools.console.Template$ [main] - template.json does not exist. Template metadata will not be available. (This is safe to ignore if you are not working on a template.)
+2015-06-22 15:54:10,311 INFO  io.prediction.tools.Runner$ [main] - Submission command: /usr/local/Cellar/apache-spark/1.3.1_1/bin/spark-submit --class io.prediction.workflow.CreateWorkflow --jars file:/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/SentimentAnalysis-assembly-0.1-SNAPSHOT-deps.jar,file:/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/sentimentanalysis_2.10-0.1-SNAPSHOT.jar --files file:/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/conf/log4j.properties --driver-class-path /Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/conf file:/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/lib/pio-assembly-0.9.4-SNAPSHOT.jar --engine-id NQe7lKFnNo8SGNfw4d5EzQT31JOeilUy --engine-version aa1327e930bc9a1976f78a49cc7dd997a272c84c --engine-variant file:/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/engine.json --verbosity 0 --json-extractor Both --env PIO_ENV_LOADED=1,PIO_STORAGE_REPOSITORIES_METADATA_NAME=pio_meta,PIO_FS_BASEDIR=/Users/Marco/.pio_store,PIO_HOME=/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT,PIO_FS_ENGINESDIR=/Users/Marco/.pio_store/engines,PIO_STORAGE_SOURCES_PGSQL_URL=jdbc:postgresql://localhost/pio,PIO_STORAGE_REPOSITORIES_METADATA_SOURCE=PGSQL,PIO_STORAGE_REPOSITORIES_MODELDATA_SOURCE=PGSQL,PIO_STORAGE_REPOSITORIES_EVENTDATA_NAME=pio_event,PIO_STORAGE_SOURCES_PGSQL_PASSWORD=pio,PIO_STORAGE_SOURCES_PGSQL_TYPE=jdbc,PIO_FS_TMPDIR=/Users/Marco/.pio_store/tmp,PIO_STORAGE_SOURCES_PGSQL_USERNAME=pio,PIO_STORAGE_REPOSITORIES_MODELDATA_NAME=pio_model,PIO_STORAGE_REPOSITORIES_EVENTDATA_SOURCE=PGSQL,PIO_CONF_DIR=/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/conf
+2015-06-22 15:54:17,622 INFO  io.prediction.controller.Engine [main] - Extracting datasource params...
+2015-06-22 15:54:17,776 INFO  io.prediction.workflow.WorkflowUtils$ [main] - No 'name' is found. Default empty String will be used.
+2015-06-22 15:54:17,803 INFO  io.prediction.controller.Engine [main] - Datasource params: (,DataSourceParams(application))
+2015-06-22 15:54:17,803 INFO  io.prediction.controller.Engine [main] - Extracting preparator params...
+2015-06-22 15:54:17,804 INFO  io.prediction.workflow.WorkflowUtils$ [main] - No 'name' is found. Default empty String will be used.
+2015-06-22 15:54:17,808 INFO  io.prediction.controller.Engine [main] - Preparator params: (,PreparatorParams(2))
+2015-06-22 15:54:17,822 INFO  io.prediction.controller.Engine [main] - Extracting serving params...
+2015-06-22 15:54:17,825 INFO  io.prediction.controller.Engine [main] - Serving params: (,Empty)
+2015-06-22 15:54:20,688 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-3] - Starting remoting
+2015-06-22 15:54:21,210 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-3] - Remoting started; listening on addresses :[akka.tcp://sparkDriver@10.0.0.30:63833]
+2015-06-22 15:54:23,610 INFO  io.prediction.controller.Engine$ [main] - EngineWorkflow.train
+2015-06-22 15:54:23,612 INFO  io.prediction.controller.Engine$ [main] - DataSource: SentimentAnalysis.DataSource@7d0d91a1
+2015-06-22 15:54:23,614 INFO  io.prediction.controller.Engine$ [main] - Preparator: SentimentAnalysis.Preparator@4c86da0c
+2015-06-22 15:54:23,615 INFO  io.prediction.controller.Engine$ [main] - AlgorithmList: List(SentimentAnalysis.Algorithm@474821de)
+2015-06-22 15:54:23,625 INFO  io.prediction.controller.Engine$ [main] - Data santiy check is on.
+2015-06-22 15:54:28,017 INFO  io.prediction.controller.Engine$ [main] - SentimentAnalysis.TrainingData does not support data sanity check. Skipping check.
+2015-06-22 15:54:35,976 ERROR org.apache.spark.executor.Executor [Executor task launch worker-2] - Exception in task 3.0 in stage 1.0 (TID 7)
+java.util.regex.PatternSyntaxException: Dangling meta character '*' near index 0
+*
+^
+	at java.util.regex.Pattern.error(Pattern.java:1955)
+	at java.util.regex.Pattern.sequence(Pattern.java:2123)
+	at java.util.regex.Pattern.expr(Pattern.java:1996)
+	at java.util.regex.Pattern.compile(Pattern.java:1696)
+	at java.util.regex.Pattern.<init>(Pattern.java:1351)
+	at java.util.regex.Pattern.compile(Pattern.java:1028)
+	at java.lang.String.replaceAll(String.java:2211)
+	at SentimentAnalysis.PreparedData$$anonfun$rmChars$1.apply(Preparator.scala:66)
+	at SentimentAnalysis.PreparedData$$anonfun$rmChars$1.apply(Preparator.scala:66)
+	at scala.collection.TraversableOnce$$anonfun$foldLeft$1.apply(TraversableOnce.scala:144)
+	at scala.collection.TraversableOnce$$anonfun$foldLeft$1.apply(TraversableOnce.scala:144)
+	at scala.collection.immutable.HashSet$HashSet1.foreach(HashSet.scala:153)
+	at scala.collection.immutable.HashSet$HashTrieSet.foreach(HashSet.scala:306)
+	at scala.collection.immutable.HashSet$HashTrieSet.foreach(HashSet.scala:306)
+	at scala.collection.TraversableOnce$class.foldLeft(TraversableOnce.scala:144)
+	at scala.collection.AbstractTraversable.foldLeft(Traversable.scala:105)
+	at SentimentAnalysis.PreparedData.rmChars(Preparator.scala:65)
+	at SentimentAnalysis.PreparedData.SentimentAnalysis$PreparedData$$tokenize(Preparator.scala:82)
+	at SentimentAnalysis.PreparedData$$anonfun$1.apply(Preparator.scala:109)
+	at SentimentAnalysis.PreparedData$$anonfun$1.apply(Preparator.scala:109)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:328)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:727)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1157)
+	at scala.collection.TraversableOnce$class.foldLeft(TraversableOnce.scala:144)
+	at scala.collection.AbstractIterator.foldLeft(Iterator.scala:1157)
+	at scala.collection.TraversableOnce$class.aggregate(TraversableOnce.scala:201)
+	at scala.collection.AbstractIterator.aggregate(Iterator.scala:1157)
+	at org.apache.spark.rdd.RDD$$anonfun$28.apply(RDD.scala:988)
+	at org.apache.spark.rdd.RDD$$anonfun$28.apply(RDD.scala:988)
+	at org.apache.spark.rdd.RDD$$anonfun$29.apply(RDD.scala:989)
+	at org.apache.spark.rdd.RDD$$anonfun$29.apply(RDD.scala:989)
+	at org.apache.spark.rdd.RDD$$anonfun$14.apply(RDD.scala:634)
+	at org.apache.spark.rdd.RDD$$anonfun$14.apply(RDD.scala:634)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:35)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:277)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:244)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:61)
+	at org.apache.spark.scheduler.Task.run(Task.scala:64)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:203)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2015-06-22 15:54:36,130 WARN  org.apache.spark.scheduler.TaskSetManager [task-result-getter-3] - Lost task 3.0 in stage 1.0 (TID 7, localhost): java.util.regex.PatternSyntaxException: Dangling meta character '*' near index 0
+*
+^
+	at java.util.regex.Pattern.error(Pattern.java:1955)
+	at java.util.regex.Pattern.sequence(Pattern.java:2123)
+	at java.util.regex.Pattern.expr(Pattern.java:1996)
+	at java.util.regex.Pattern.compile(Pattern.java:1696)
+	at java.util.regex.Pattern.<init>(Pattern.java:1351)
+	at java.util.regex.Pattern.compile(Pattern.java:1028)
+	at java.lang.String.replaceAll(String.java:2211)
+	at SentimentAnalysis.PreparedData$$anonfun$rmChars$1.apply(Preparator.scala:66)
+	at SentimentAnalysis.PreparedData$$anonfun$rmChars$1.apply(Preparator.scala:66)
+	at scala.collection.TraversableOnce$$anonfun$foldLeft$1.apply(TraversableOnce.scala:144)
+	at scala.collection.TraversableOnce$$anonfun$foldLeft$1.apply(TraversableOnce.scala:144)
+	at scala.collection.immutable.HashSet$HashSet1.foreach(HashSet.scala:153)
+	at scala.collection.immutable.HashSet$HashTrieSet.foreach(HashSet.scala:306)
+	at scala.collection.immutable.HashSet$HashTrieSet.foreach(HashSet.scala:306)
+	at scala.collection.TraversableOnce$class.foldLeft(TraversableOnce.scala:144)
+	at scala.collection.AbstractTraversable.foldLeft(Traversable.scala:105)
+	at SentimentAnalysis.PreparedData.rmChars(Preparator.scala:65)
+	at SentimentAnalysis.PreparedData.SentimentAnalysis$PreparedData$$tokenize(Preparator.scala:82)
+	at SentimentAnalysis.PreparedData$$anonfun$1.apply(Preparator.scala:109)
+	at SentimentAnalysis.PreparedData$$anonfun$1.apply(Preparator.scala:109)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:328)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:727)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1157)
+	at scala.collection.TraversableOnce$class.foldLeft(TraversableOnce.scala:144)
+	at scala.collection.AbstractIterator.foldLeft(Iterator.scala:1157)
+	at scala.collection.TraversableOnce$class.aggregate(TraversableOnce.scala:201)
+	at scala.collection.AbstractIterator.aggregate(Iterator.scala:1157)
+	at org.apache.spark.rdd.RDD$$anonfun$28.apply(RDD.scala:988)
+	at org.apache.spark.rdd.RDD$$anonfun$28.apply(RDD.scala:988)
+	at org.apache.spark.rdd.RDD$$anonfun$29.apply(RDD.scala:989)
+	at org.apache.spark.rdd.RDD$$anonfun$29.apply(RDD.scala:989)
+	at org.apache.spark.rdd.RDD$$anonfun$14.apply(RDD.scala:634)
+	at org.apache.spark.rdd.RDD$$anonfun$14.apply(RDD.scala:634)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:35)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:277)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:244)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:61)
+	at org.apache.spark.scheduler.Task.run(Task.scala:64)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:203)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2015-06-22 15:54:36,133 ERROR org.apache.spark.scheduler.TaskSetManager [task-result-getter-3] - Task 3 in stage 1.0 failed 1 times; aborting job
+2015-06-22 15:58:02,240 INFO  io.prediction.tools.console.Console$ [main] - Using existing engine manifest JSON at /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/manifest.json
+2015-06-22 15:58:02,244 WARN  io.prediction.tools.console.Template$ [main] - template.json does not exist. Template metadata will not be available. (This is safe to ignore if you are not working on a template.)
+2015-06-22 15:58:02,288 INFO  io.prediction.tools.console.Console$ [main] - Using command '/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/sbt/sbt' at the current working directory to build.
+2015-06-22 15:58:02,288 INFO  io.prediction.tools.console.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-06-22 15:58:02,289 INFO  io.prediction.tools.console.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.9.4-SNAPSHOT.jar is absent.
+2015-06-22 15:58:02,289 INFO  io.prediction.tools.console.Console$ [main] - Going to run: /Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/sbt/sbt  package assemblyPackageDependency
+2015-06-22 15:58:44,864 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala:45: class TrainingData needs to be abstract, since method sanityCheck in trait SanityCheck of type ()Unit is not defined[0m
+2015-06-22 15:58:44,941 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0mcase class TrainingData ([0m
+2015-06-22 15:58:44,942 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m           ^[0m
+2015-06-22 15:58:45,209 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0mone error found[0m
+2015-06-22 15:58:45,394 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0m(compile:[31mcompile[0m) Compilation failed[0m
+2015-06-22 15:58:45,420 ERROR io.prediction.tools.console.Console$ [Thread-2] - [0m[[31merror[0m] [0mTotal time: 35 s, completed Jun 22, 2015 3:58:45 PM[0m
+2015-06-22 15:58:45,722 ERROR io.prediction.tools.console.Console$ [main] - Return code of previous step is 1. Aborting.
+2015-06-22 15:59:37,894 INFO  io.prediction.tools.console.Console$ [main] - Using existing engine manifest JSON at /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/manifest.json
+2015-06-22 15:59:37,897 WARN  io.prediction.tools.console.Template$ [main] - template.json does not exist. Template metadata will not be available. (This is safe to ignore if you are not working on a template.)
+2015-06-22 15:59:37,931 INFO  io.prediction.tools.console.Console$ [main] - Using command '/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/sbt/sbt' at the current working directory to build.
+2015-06-22 15:59:37,931 INFO  io.prediction.tools.console.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-06-22 15:59:37,932 INFO  io.prediction.tools.console.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.9.4-SNAPSHOT.jar is absent.
+2015-06-22 15:59:37,933 INFO  io.prediction.tools.console.Console$ [main] - Going to run: /Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/sbt/sbt  package assemblyPackageDependency
+2015-06-22 16:00:02,795 INFO  io.prediction.tools.console.Console$ [main] - Build finished successfully.
+2015-06-22 16:00:02,796 INFO  io.prediction.tools.console.Console$ [main] - Looking for an engine...
+2015-06-22 16:00:02,809 INFO  io.prediction.tools.console.Console$ [main] - Found SentimentAnalysis-assembly-0.1-SNAPSHOT-deps.jar
+2015-06-22 16:00:02,809 INFO  io.prediction.tools.console.Console$ [main] - Found sentimentanalysis_2.10-0.1-SNAPSHOT.jar
+2015-06-22 16:00:03,569 INFO  io.prediction.tools.RegisterEngine$ [main] - Registering engine NQe7lKFnNo8SGNfw4d5EzQT31JOeilUy aa1327e930bc9a1976f78a49cc7dd997a272c84c
+2015-06-22 16:00:03,579 INFO  io.prediction.tools.console.Console$ [main] - Your engine is ready for training.
+2015-06-22 16:00:04,390 INFO  io.prediction.tools.console.Console$ [main] - Using existing engine manifest JSON at /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/manifest.json
+2015-06-22 16:00:04,393 WARN  io.prediction.tools.console.Template$ [main] - template.json does not exist. Template metadata will not be available. (This is safe to ignore if you are not working on a template.)
+2015-06-22 16:00:05,236 INFO  io.prediction.tools.Runner$ [main] - Submission command: /usr/local/Cellar/apache-spark/1.3.1_1/bin/spark-submit --class io.prediction.workflow.CreateWorkflow --jars file:/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/SentimentAnalysis-assembly-0.1-SNAPSHOT-deps.jar,file:/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/sentimentanalysis_2.10-0.1-SNAPSHOT.jar --files file:/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/conf/log4j.properties --driver-class-path /Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/conf file:/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/lib/pio-assembly-0.9.4-SNAPSHOT.jar --engine-id NQe7lKFnNo8SGNfw4d5EzQT31JOeilUy --engine-version aa1327e930bc9a1976f78a49cc7dd997a272c84c --engine-variant file:/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/engine.json --verbosity 0 --json-extractor Both --env PIO_ENV_LOADED=1,PIO_STORAGE_REPOSITORIES_METADATA_NAME=pio_meta,PIO_FS_BASEDIR=/Users/Marco/.pio_store,PIO_HOME=/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT,PIO_FS_ENGINESDIR=/Users/Marco/.pio_store/engines,PIO_STORAGE_SOURCES_PGSQL_URL=jdbc:postgresql://localhost/pio,PIO_STORAGE_REPOSITORIES_METADATA_SOURCE=PGSQL,PIO_STORAGE_REPOSITORIES_MODELDATA_SOURCE=PGSQL,PIO_STORAGE_REPOSITORIES_EVENTDATA_NAME=pio_event,PIO_STORAGE_SOURCES_PGSQL_PASSWORD=pio,PIO_STORAGE_SOURCES_PGSQL_TYPE=jdbc,PIO_FS_TMPDIR=/Users/Marco/.pio_store/tmp,PIO_STORAGE_SOURCES_PGSQL_USERNAME=pio,PIO_STORAGE_REPOSITORIES_MODELDATA_NAME=pio_model,PIO_STORAGE_REPOSITORIES_EVENTDATA_SOURCE=PGSQL,PIO_CONF_DIR=/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/conf
+2015-06-22 16:00:07,790 INFO  io.prediction.controller.Engine [main] - Extracting datasource params...
+2015-06-22 16:00:07,859 INFO  io.prediction.workflow.WorkflowUtils$ [main] - No 'name' is found. Default empty String will be used.
+2015-06-22 16:00:07,874 INFO  io.prediction.controller.Engine [main] - Datasource params: (,DataSourceParams(application))
+2015-06-22 16:00:07,875 INFO  io.prediction.controller.Engine [main] - Extracting preparator params...
+2015-06-22 16:00:07,876 INFO  io.prediction.workflow.WorkflowUtils$ [main] - No 'name' is found. Default empty String will be used.
+2015-06-22 16:00:07,880 INFO  io.prediction.controller.Engine [main] - Preparator params: (,PreparatorParams(2))
+2015-06-22 16:00:07,886 INFO  io.prediction.controller.Engine [main] - Extracting serving params...
+2015-06-22 16:00:07,888 INFO  io.prediction.controller.Engine [main] - Serving params: (,Empty)
+2015-06-22 16:00:08,940 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-2] - Starting remoting
+2015-06-22 16:00:09,177 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-2] - Remoting started; listening on addresses :[akka.tcp://sparkDriver@10.0.0.30:63876]
+2015-06-22 16:00:10,197 INFO  io.prediction.controller.Engine$ [main] - EngineWorkflow.train
+2015-06-22 16:00:10,198 INFO  io.prediction.controller.Engine$ [main] - DataSource: SentimentAnalysis.DataSource@7d0d91a1
+2015-06-22 16:00:10,199 INFO  io.prediction.controller.Engine$ [main] - Preparator: SentimentAnalysis.Preparator@4c86da0c
+2015-06-22 16:00:10,199 INFO  io.prediction.controller.Engine$ [main] - AlgorithmList: List(SentimentAnalysis.Algorithm@474821de)
+2015-06-22 16:00:10,200 INFO  io.prediction.controller.Engine$ [main] - Data santiy check is on.
+2015-06-22 16:00:11,559 INFO  io.prediction.controller.Engine$ [main] - SentimentAnalysis.TrainingData supports data sanity check. Performing check.
+2015-06-22 16:00:14,351 ERROR org.apache.spark.executor.Executor [Executor task launch worker-1] - Exception in task 3.0 in stage 1.0 (TID 7)
+java.util.regex.PatternSyntaxException: Dangling meta character '*' near index 0
+*
+^
+	at java.util.regex.Pattern.error(Pattern.java:1955)
+	at java.util.regex.Pattern.sequence(Pattern.java:2123)
+	at java.util.regex.Pattern.expr(Pattern.java:1996)
+	at java.util.regex.Pattern.compile(Pattern.java:1696)
+	at java.util.regex.Pattern.<init>(Pattern.java:1351)
+	at java.util.regex.Pattern.compile(Pattern.java:1028)
+	at java.lang.String.replaceAll(String.java:2211)
+	at SentimentAnalysis.PreparedData$$anonfun$rmChars$1.apply(Preparator.scala:66)
+	at SentimentAnalysis.PreparedData$$anonfun$rmChars$1.apply(Preparator.scala:66)
+	at scala.collection.TraversableOnce$$anonfun$foldLeft$1.apply(TraversableOnce.scala:144)
+	at scala.collection.TraversableOnce$$anonfun$foldLeft$1.apply(TraversableOnce.scala:144)
+	at scala.collection.immutable.HashSet$HashSet1.foreach(HashSet.scala:153)
+	at scala.collection.immutable.HashSet$HashTrieSet.foreach(HashSet.scala:306)
+	at scala.collection.immutable.HashSet$HashTrieSet.foreach(HashSet.scala:306)
+	at scala.collection.TraversableOnce$class.foldLeft(TraversableOnce.scala:144)
+	at scala.collection.AbstractTraversable.foldLeft(Traversable.scala:105)
+	at SentimentAnalysis.PreparedData.rmChars(Preparator.scala:65)
+	at SentimentAnalysis.PreparedData.SentimentAnalysis$PreparedData$$tokenize(Preparator.scala:82)
+	at SentimentAnalysis.PreparedData$$anonfun$1.apply(Preparator.scala:109)
+	at SentimentAnalysis.PreparedData$$anonfun$1.apply(Preparator.scala:109)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:328)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:727)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1157)
+	at scala.collection.TraversableOnce$class.foldLeft(TraversableOnce.scala:144)
+	at scala.collection.AbstractIterator.foldLeft(Iterator.scala:1157)
+	at scala.collection.TraversableOnce$class.aggregate(TraversableOnce.scala:201)
+	at scala.collection.AbstractIterator.aggregate(Iterator.scala:1157)
+	at org.apache.spark.rdd.RDD$$anonfun$28.apply(RDD.scala:988)
+	at org.apache.spark.rdd.RDD$$anonfun$28.apply(RDD.scala:988)
+	at org.apache.spark.rdd.RDD$$anonfun$29.apply(RDD.scala:989)
+	at org.apache.spark.rdd.RDD$$anonfun$29.apply(RDD.scala:989)
+	at org.apache.spark.rdd.RDD$$anonfun$14.apply(RDD.scala:634)
+	at org.apache.spark.rdd.RDD$$anonfun$14.apply(RDD.scala:634)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:35)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:277)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:244)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:61)
+	at org.apache.spark.scheduler.Task.run(Task.scala:64)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:203)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2015-06-22 16:00:14,363 WARN  org.apache.spark.scheduler.TaskSetManager [task-result-getter-3] - Lost task 3.0 in stage 1.0 (TID 7, localhost): java.util.regex.PatternSyntaxException: Dangling meta character '*' near index 0
+*
+^
+	at java.util.regex.Pattern.error(Pattern.java:1955)
+	at java.util.regex.Pattern.sequence(Pattern.java:2123)
+	at java.util.regex.Pattern.expr(Pattern.java:1996)
+	at java.util.regex.Pattern.compile(Pattern.java:1696)
+	at java.util.regex.Pattern.<init>(Pattern.java:1351)
+	at java.util.regex.Pattern.compile(Pattern.java:1028)
+	at java.lang.String.replaceAll(String.java:2211)
+	at SentimentAnalysis.PreparedData$$anonfun$rmChars$1.apply(Preparator.scala:66)
+	at SentimentAnalysis.PreparedData$$anonfun$rmChars$1.apply(Preparator.scala:66)
+	at scala.collection.TraversableOnce$$anonfun$foldLeft$1.apply(TraversableOnce.scala:144)
+	at scala.collection.TraversableOnce$$anonfun$foldLeft$1.apply(TraversableOnce.scala:144)
+	at scala.collection.immutable.HashSet$HashSet1.foreach(HashSet.scala:153)
+	at scala.collection.immutable.HashSet$HashTrieSet.foreach(HashSet.scala:306)
+	at scala.collection.immutable.HashSet$HashTrieSet.foreach(HashSet.scala:306)
+	at scala.collection.TraversableOnce$class.foldLeft(TraversableOnce.scala:144)
+	at scala.collection.AbstractTraversable.foldLeft(Traversable.scala:105)
+	at SentimentAnalysis.PreparedData.rmChars(Preparator.scala:65)
+	at SentimentAnalysis.PreparedData.SentimentAnalysis$PreparedData$$tokenize(Preparator.scala:82)
+	at SentimentAnalysis.PreparedData$$anonfun$1.apply(Preparator.scala:109)
+	at SentimentAnalysis.PreparedData$$anonfun$1.apply(Preparator.scala:109)
+	at scala.collection.Iterator$$anon$11.next(Iterator.scala:328)
+	at scala.collection.Iterator$class.foreach(Iterator.scala:727)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1157)
+	at scala.collection.TraversableOnce$class.foldLeft(TraversableOnce.scala:144)
+	at scala.collection.AbstractIterator.foldLeft(Iterator.scala:1157)
+	at scala.collection.TraversableOnce$class.aggregate(TraversableOnce.scala:201)
+	at scala.collection.AbstractIterator.aggregate(Iterator.scala:1157)
+	at org.apache.spark.rdd.RDD$$anonfun$28.apply(RDD.scala:988)
+	at org.apache.spark.rdd.RDD$$anonfun$28.apply(RDD.scala:988)
+	at org.apache.spark.rdd.RDD$$anonfun$29.apply(RDD.scala:989)
+	at org.apache.spark.rdd.RDD$$anonfun$29.apply(RDD.scala:989)
+	at org.apache.spark.rdd.RDD$$anonfun$14.apply(RDD.scala:634)
+	at org.apache.spark.rdd.RDD$$anonfun$14.apply(RDD.scala:634)
+	at org.apache.spark.rdd.MapPartitionsRDD.compute(MapPartitionsRDD.scala:35)
+	at org.apache.spark.rdd.RDD.computeOrReadCheckpoint(RDD.scala:277)
+	at org.apache.spark.rdd.RDD.iterator(RDD.scala:244)
+	at org.apache.spark.scheduler.ResultTask.runTask(ResultTask.scala:61)
+	at org.apache.spark.scheduler.Task.run(Task.scala:64)
+	at org.apache.spark.executor.Executor$TaskRunner.run(Executor.scala:203)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+
+2015-06-22 16:00:14,365 ERROR org.apache.spark.scheduler.TaskSetManager [task-result-getter-3] - Task 3 in stage 1.0 failed 1 times; aborting job
+2015-06-22 16:04:58,150 INFO  io.prediction.tools.console.Console$ [main] - Using existing engine manifest JSON at /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/manifest.json
+2015-06-22 16:04:58,154 WARN  io.prediction.tools.console.Template$ [main] - template.json does not exist. Template metadata will not be available. (This is safe to ignore if you are not working on a template.)
+2015-06-22 16:04:58,196 INFO  io.prediction.tools.console.Console$ [main] - Using command '/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/sbt/sbt' at the current working directory to build.
+2015-06-22 16:04:58,196 INFO  io.prediction.tools.console.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-06-22 16:04:58,197 INFO  io.prediction.tools.console.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.9.4-SNAPSHOT.jar is absent.
+2015-06-22 16:04:58,197 INFO  io.prediction.tools.console.Console$ [main] - Going to run: /Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/sbt/sbt  package assemblyPackageDependency
+2015-06-22 16:05:19,462 INFO  io.prediction.tools.console.Console$ [main] - Build finished successfully.
+2015-06-22 16:05:19,462 INFO  io.prediction.tools.console.Console$ [main] - Looking for an engine...
+2015-06-22 16:05:19,469 INFO  io.prediction.tools.console.Console$ [main] - Found SentimentAnalysis-assembly-0.1-SNAPSHOT-deps.jar
+2015-06-22 16:05:19,469 INFO  io.prediction.tools.console.Console$ [main] - Found sentimentanalysis_2.10-0.1-SNAPSHOT.jar
+2015-06-22 16:05:20,235 INFO  io.prediction.tools.RegisterEngine$ [main] - Registering engine NQe7lKFnNo8SGNfw4d5EzQT31JOeilUy aa1327e930bc9a1976f78a49cc7dd997a272c84c
+2015-06-22 16:05:20,253 INFO  io.prediction.tools.console.Console$ [main] - Your engine is ready for training.
+2015-06-22 16:05:21,053 INFO  io.prediction.tools.console.Console$ [main] - Using existing engine manifest JSON at /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/manifest.json
+2015-06-22 16:05:21,056 WARN  io.prediction.tools.console.Template$ [main] - template.json does not exist. Template metadata will not be available. (This is safe to ignore if you are not working on a template.)
+2015-06-22 16:05:21,884 INFO  io.prediction.tools.Runner$ [main] - Submission command: /usr/local/Cellar/apache-spark/1.3.1_1/bin/spark-submit --class io.prediction.workflow.CreateWorkflow --jars file:/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/SentimentAnalysis-assembly-0.1-SNAPSHOT-deps.jar,file:/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/sentimentanalysis_2.10-0.1-SNAPSHOT.jar --files file:/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/conf/log4j.properties --driver-class-path /Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/conf file:/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/lib/pio-assembly-0.9.4-SNAPSHOT.jar --engine-id NQe7lKFnNo8SGNfw4d5EzQT31JOeilUy --engine-version aa1327e930bc9a1976f78a49cc7dd997a272c84c --engine-variant file:/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/engine.json --verbosity 0 --json-extractor Both --env PIO_ENV_LOADED=1,PIO_STORAGE_REPOSITORIES_METADATA_NAME=pio_meta,PIO_FS_BASEDIR=/Users/Marco/.pio_store,PIO_HOME=/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT,PIO_FS_ENGINESDIR=/Users/Marco/.pio_store/engines,PIO_STORAGE_SOURCES_PGSQL_URL=jdbc:postgresql://localhost/pio,PIO_STORAGE_REPOSITORIES_METADATA_SOURCE=PGSQL,PIO_STORAGE_REPOSITORIES_MODELDATA_SOURCE=PGSQL,PIO_STORAGE_REPOSITORIES_EVENTDATA_NAME=pio_event,PIO_STORAGE_SOURCES_PGSQL_PASSWORD=pio,PIO_STORAGE_SOURCES_PGSQL_TYPE=jdbc,PIO_FS_TMPDIR=/Users/Marco/.pio_store/tmp,PIO_STORAGE_SOURCES_PGSQL_USERNAME=pio,PIO_STORAGE_REPOSITORIES_MODELDATA_NAME=pio_model,PIO_STORAGE_REPOSITORIES_EVENTDATA_SOURCE=PGSQL,PIO_CONF_DIR=/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/conf
+2015-06-22 16:05:24,349 INFO  io.prediction.controller.Engine [main] - Extracting datasource params...
+2015-06-22 16:05:24,429 INFO  io.prediction.workflow.WorkflowUtils$ [main] - No 'name' is found. Default empty String will be used.
+2015-06-22 16:05:24,442 INFO  io.prediction.controller.Engine [main] - Datasource params: (,DataSourceParams(application))
+2015-06-22 16:05:24,442 INFO  io.prediction.controller.Engine [main] - Extracting preparator params...
+2015-06-22 16:05:24,443 INFO  io.prediction.workflow.WorkflowUtils$ [main] - No 'name' is found. Default empty String will be used.
+2015-06-22 16:05:24,447 INFO  io.prediction.controller.Engine [main] - Preparator params: (,PreparatorParams(2))
+2015-06-22 16:05:24,454 INFO  io.prediction.controller.Engine [main] - Extracting serving params...
+2015-06-22 16:05:24,456 INFO  io.prediction.controller.Engine [main] - Serving params: (,Empty)
+2015-06-22 16:05:25,467 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-4] - Starting remoting
+2015-06-22 16:05:25,717 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-4] - Remoting started; listening on addresses :[akka.tcp://sparkDriver@10.0.0.30:64013]
+2015-06-22 16:05:26,731 INFO  io.prediction.controller.Engine$ [main] - EngineWorkflow.train
+2015-06-22 16:05:26,732 INFO  io.prediction.controller.Engine$ [main] - DataSource: SentimentAnalysis.DataSource@7d0d91a1
+2015-06-22 16:05:26,733 INFO  io.prediction.controller.Engine$ [main] - Preparator: SentimentAnalysis.Preparator@4c86da0c
+2015-06-22 16:05:26,734 INFO  io.prediction.controller.Engine$ [main] - AlgorithmList: List(SentimentAnalysis.Algorithm@474821de)
+2015-06-22 16:05:26,734 INFO  io.prediction.controller.Engine$ [main] - Data santiy check is on.
+2015-06-22 16:05:28,081 INFO  io.prediction.controller.Engine$ [main] - SentimentAnalysis.TrainingData supports data sanity check. Performing check.
+2015-06-22 16:05:38,121 INFO  io.prediction.controller.Engine$ [main] - SentimentAnalysis.PreparedData does not support data sanity check. Skipping check.
+2015-06-22 16:05:49,315 INFO  io.prediction.controller.Engine$ [main] - SentimentAnalysis.Model does not support data sanity check. Skipping check.
+2015-06-22 16:05:49,316 INFO  io.prediction.controller.Engine$ [main] - EngineWorkflow.train completed
+2015-06-22 16:05:49,317 INFO  io.prediction.controller.Engine [main] - engineInstanceId=d279c86b-7cc0-4a52-8b8e-f0c246cd6e04
+2015-06-22 16:05:49,340 INFO  io.prediction.workflow.CoreWorkflow$ [main] - Inserting persistent model
+2015-06-22 16:05:49,467 INFO  io.prediction.workflow.CoreWorkflow$ [main] - Updating engine instance
+2015-06-22 16:05:49,472 INFO  io.prediction.workflow.CoreWorkflow$ [main] - Training completed successfully.
+2015-06-22 16:06:31,488 WARN  io.prediction.tools.console.Template$ [main] - template.json does not exist. Template metadata will not be available. (This is safe to ignore if you are not working on a template.)
+2015-06-22 16:06:32,458 INFO  io.prediction.tools.Runner$ [main] - Submission command: /usr/local/Cellar/apache-spark/1.3.1_1/bin/spark-submit --class io.prediction.workflow.CreateServer --jars file:/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/SentimentAnalysis-assembly-0.1-SNAPSHOT-deps.jar,file:/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/sentimentanalysis_2.10-0.1-SNAPSHOT.jar --files file:/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/conf/log4j.properties --driver-class-path /Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/conf file:/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/lib/pio-assembly-0.9.4-SNAPSHOT.jar --engineInstanceId d279c86b-7cc0-4a52-8b8e-f0c246cd6e04 --engine-variant file:/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/engine.json --ip 0.0.0.0 --port 8000 --event-server-ip 0.0.0.0 --event-server-port 7070 --json-extractor Both --env PIO_ENV_LOADED=1,PIO_STORAGE_REPOSITORIES_METADATA_NAME=pio_meta,PIO_FS_BASEDIR=/Users/Marco/.pio_store,PIO_HOME=/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT,PIO_FS_ENGINESDIR=/Users/Marco/.pio_store/engines,PIO_STORAGE_SOURCES_PGSQL_URL=jdbc:postgresql://localhost/pio,PIO_STORAGE_REPOSITORIES_METADATA_SOURCE=PGSQL,PIO_STORAGE_REPOSITORIES_MODELDATA_SOURCE=PGSQL,PIO_STORAGE_REPOSITORIES_EVENTDATA_NAME=pio_event,PIO_STORAGE_SOURCES_PGSQL_PASSWORD=pio,PIO_STORAGE_SOURCES_PGSQL_TYPE=jdbc,PIO_FS_TMPDIR=/Users/Marco/.pio_store/tmp,PIO_STORAGE_SOURCES_PGSQL_USERNAME=pio,PIO_STORAGE_REPOSITORIES_MODELDATA_NAME=pio_model,PIO_STORAGE_REPOSITORIES_EVENTDATA_SOURCE=PGSQL,PIO_CONF_DIR=/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/conf
+2015-06-22 16:06:35,150 WARN  io.prediction.workflow.WorkflowUtils$ [pio-server-akka.actor.default-dispatcher-2] - Non-empty parameters supplied to SentimentAnalysis.Serving, but its constructor does not accept any arguments. Stubbing with empty parameters.
+2015-06-22 16:06:36,017 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-3] - Starting remoting
+2015-06-22 16:06:36,275 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-2] - Remoting started; listening on addresses :[akka.tcp://sparkDriver@10.0.0.30:64033]
+2015-06-22 16:06:37,338 INFO  io.prediction.controller.Engine [pio-server-akka.actor.default-dispatcher-2] - Some persisted models are Unit, need to re-train.
+2015-06-22 16:06:58,939 INFO  io.prediction.controller.Engine [pio-server-akka.actor.default-dispatcher-2] - Loaded model SentimentAnalysis.Model for algorithm SentimentAnalysis.Algorithm
+2015-06-22 16:06:58,950 INFO  io.prediction.workflow.MasterActor [pio-server-akka.actor.default-dispatcher-4] - Undeploying any existing engine instance at http://0.0.0.0:8000
+2015-06-22 16:06:58,963 WARN  io.prediction.workflow.MasterActor [pio-server-akka.actor.default-dispatcher-4] - Nothing at http://0.0.0.0:8000
+2015-06-22 16:06:59,662 INFO  spray.can.server.HttpListener [pio-server-akka.actor.default-dispatcher-4] - Bound to /0.0.0.0:8000
+2015-06-22 16:06:59,664 INFO  io.prediction.workflow.MasterActor [pio-server-akka.actor.default-dispatcher-5] - Engine is deployed and running. Engine API is live at http://0.0.0.0:8000.
+2015-06-22 16:07:17,729 WARN  com.github.fommil.netlib.BLAS [ForkJoinPool-2-worker-7] - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2015-06-22 16:07:17,729 WARN  com.github.fommil.netlib.BLAS [ForkJoinPool-2-worker-7] - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2015-06-22 16:09:41,566 INFO  io.prediction.tools.console.Console$ [main] - Using existing engine manifest JSON at /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/manifest.json
+2015-06-22 16:09:41,570 WARN  io.prediction.tools.console.Template$ [main] - template.json does not exist. Template metadata will not be available. (This is safe to ignore if you are not working on a template.)
+2015-06-22 16:09:41,612 INFO  io.prediction.tools.console.Console$ [main] - Using command '/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/sbt/sbt' at the current working directory to build.
+2015-06-22 16:09:41,612 INFO  io.prediction.tools.console.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-06-22 16:09:41,613 INFO  io.prediction.tools.console.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.9.4-SNAPSHOT.jar is absent.
+2015-06-22 16:09:41,614 INFO  io.prediction.tools.console.Console$ [main] - Going to run: /Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/sbt/sbt  package assemblyPackageDependency
+2015-06-22 16:10:04,483 INFO  io.prediction.tools.console.Console$ [main] - Build finished successfully.
+2015-06-22 16:10:04,483 INFO  io.prediction.tools.console.Console$ [main] - Looking for an engine...
+2015-06-22 16:10:04,490 INFO  io.prediction.tools.console.Console$ [main] - Found SentimentAnalysis-assembly-0.1-SNAPSHOT-deps.jar
+2015-06-22 16:10:04,491 INFO  io.prediction.tools.console.Console$ [main] - Found sentimentanalysis_2.10-0.1-SNAPSHOT.jar
+2015-06-22 16:10:05,250 INFO  io.prediction.tools.RegisterEngine$ [main] - Registering engine NQe7lKFnNo8SGNfw4d5EzQT31JOeilUy aa1327e930bc9a1976f78a49cc7dd997a272c84c
+2015-06-22 16:10:05,259 INFO  io.prediction.tools.console.Console$ [main] - Your engine is ready for training.
+2015-06-22 16:10:06,061 INFO  io.prediction.tools.console.Console$ [main] - Using existing engine manifest JSON at /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/manifest.json
+2015-06-22 16:10:06,064 WARN  io.prediction.tools.console.Template$ [main] - template.json does not exist. Template metadata will not be available. (This is safe to ignore if you are not working on a template.)
+2015-06-22 16:10:06,901 INFO  io.prediction.tools.Runner$ [main] - Submission command: /usr/local/Cellar/apache-spark/1.3.1_1/bin/spark-submit --class io.prediction.workflow.CreateWorkflow --jars file:/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/SentimentAnalysis-assembly-0.1-SNAPSHOT-deps.jar,file:/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/sentimentanalysis_2.10-0.1-SNAPSHOT.jar --files file:/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/conf/log4j.properties --driver-class-path /Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/conf file:/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/lib/pio-assembly-0.9.4-SNAPSHOT.jar --engine-id NQe7lKFnNo8SGNfw4d5EzQT31JOeilUy --engine-version aa1327e930bc9a1976f78a49cc7dd997a272c84c --engine-variant file:/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/engine.json --verbosity 0 --json-extractor Both --env PIO_ENV_LOADED=1,PIO_STORAGE_REPOSITORIES_METADATA_NAME=pio_meta,PIO_FS_BASEDIR=/Users/Marco/.pio_store,PIO_HOME=/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT,PIO_FS_ENGINESDIR=/Users/Marco/.pio_store/engines,PIO_STORAGE_SOURCES_PGSQL_URL=jdbc:postgresql://localhost/pio,PIO_STORAGE_REPOSITORIES_METADATA_SOURCE=PGSQL,PIO_STORAGE_REPOSITORIES_MODELDATA_SOURCE=PGSQL,PIO_STORAGE_REPOSITORIES_EVENTDATA_NAME=pio_event,PIO_STORAGE_SOURCES_PGSQL_PASSWORD=pio,PIO_STORAGE_SOURCES_PGSQL_TYPE=jdbc,PIO_FS_TMPDIR=/Users/Marco/.pio_store/tmp,PIO_STORAGE_SOURCES_PGSQL_USERNAME=pio,PIO_STORAGE_REPOSITORIES_MODELDATA_NAME=pio_model,PIO_STORAGE_REPOSITORIES_EVENTDATA_SOURCE=PGSQL,PIO_CONF_DIR=/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/conf
+2015-06-22 16:10:09,412 INFO  io.prediction.controller.Engine [main] - Extracting datasource params...
+2015-06-22 16:10:09,493 INFO  io.prediction.workflow.WorkflowUtils$ [main] - No 'name' is found. Default empty String will be used.
+2015-06-22 16:10:09,504 INFO  io.prediction.controller.Engine [main] - Datasource params: (,DataSourceParams(application))
+2015-06-22 16:10:09,504 INFO  io.prediction.controller.Engine [main] - Extracting preparator params...
+2015-06-22 16:10:09,505 INFO  io.prediction.workflow.WorkflowUtils$ [main] - No 'name' is found. Default empty String will be used.
+2015-06-22 16:10:09,509 INFO  io.prediction.controller.Engine [main] - Preparator params: (,PreparatorParams(2))
+2015-06-22 16:10:09,515 INFO  io.prediction.controller.Engine [main] - Extracting serving params...
+2015-06-22 16:10:09,517 INFO  io.prediction.controller.Engine [main] - Serving params: (,Empty)
+2015-06-22 16:10:10,534 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-2] - Starting remoting
+2015-06-22 16:10:10,774 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-2] - Remoting started; listening on addresses :[akka.tcp://sparkDriver@10.0.0.30:64086]
+2015-06-22 16:10:11,754 INFO  io.prediction.controller.Engine$ [main] - EngineWorkflow.train
+2015-06-22 16:10:11,754 INFO  io.prediction.controller.Engine$ [main] - DataSource: SentimentAnalysis.DataSource@7d0d91a1
+2015-06-22 16:10:11,755 INFO  io.prediction.controller.Engine$ [main] - Preparator: SentimentAnalysis.Preparator@4c86da0c
+2015-06-22 16:10:11,756 INFO  io.prediction.controller.Engine$ [main] - AlgorithmList: List(SentimentAnalysis.Algorithm@474821de)
+2015-06-22 16:10:11,756 INFO  io.prediction.controller.Engine$ [main] - Data santiy check is on.
+2015-06-22 16:10:13,075 INFO  io.prediction.controller.Engine$ [main] - SentimentAnalysis.TrainingData supports data sanity check. Performing check.
+2015-06-22 16:10:19,612 INFO  io.prediction.controller.Engine$ [main] - SentimentAnalysis.PreparedData does not support data sanity check. Skipping check.
+2015-06-22 16:10:26,896 INFO  io.prediction.controller.Engine$ [main] - SentimentAnalysis.Model does not support data sanity check. Skipping check.
+2015-06-22 16:10:26,896 INFO  io.prediction.controller.Engine$ [main] - EngineWorkflow.train completed
+2015-06-22 16:10:26,897 INFO  io.prediction.controller.Engine [main] - engineInstanceId=337392fe-b661-4a69-95f8-873de1be58ab
+2015-06-22 16:10:26,916 INFO  io.prediction.workflow.CoreWorkflow$ [main] - Inserting persistent model
+2015-06-22 16:10:27,019 INFO  io.prediction.workflow.CoreWorkflow$ [main] - Updating engine instance
+2015-06-22 16:10:27,027 INFO  io.prediction.workflow.CoreWorkflow$ [main] - Training completed successfully.
+2015-06-22 16:10:31,882 WARN  io.prediction.tools.console.Template$ [main] - template.json does not exist. Template metadata will not be available. (This is safe to ignore if you are not working on a template.)
+2015-06-22 16:10:32,867 INFO  io.prediction.tools.Runner$ [main] - Submission command: /usr/local/Cellar/apache-spark/1.3.1_1/bin/spark-submit --class io.prediction.workflow.CreateServer --jars file:/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/SentimentAnalysis-assembly-0.1-SNAPSHOT-deps.jar,file:/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/sentimentanalysis_2.10-0.1-SNAPSHOT.jar --files file:/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/conf/log4j.properties --driver-class-path /Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/conf file:/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/lib/pio-assembly-0.9.4-SNAPSHOT.jar --engineInstanceId 337392fe-b661-4a69-95f8-873de1be58ab --engine-variant file:/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/engine.json --ip 0.0.0.0 --port 8000 --event-server-ip 0.0.0.0 --event-server-port 7070 --json-extractor Both --env PIO_ENV_LOADED=1,PIO_STORAGE_REPOSITORIES_METADATA_NAME=pio_meta,PIO_FS_BASEDIR=/Users/Marco/.pio_store,PIO_HOME=/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT,PIO_FS_ENGINESDIR=/Users/Marco/.pio_store/engines,PIO_STORAGE_SOURCES_PGSQL_URL=jdbc:postgresql://localhost/pio,PIO_STORAGE_REPOSITORIES_METADATA_SOURCE=PGSQL,PIO_STORAGE_REPOSITORIES_MODELDATA_SOURCE=PGSQL,PIO_STORAGE_REPOSITORIES_EVENTDATA_NAME=pio_event,PIO_STORAGE_SOURCES_PGSQL_PASSWORD=pio,PIO_STORAGE_SOURCES_PGSQL_TYPE=jdbc,PIO_FS_TMPDIR=/Users/Marco/.pio_store/tmp,PIO_STORAGE_SOURCES_PGSQL_USERNAME=pio,PIO_STORAGE_REPOSITORIES_MODELDATA_NAME=pio_model,PIO_STORAGE_REPOSITORIES_EVENTDATA_SOURCE=PGSQL,PIO_CONF_DIR=/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/conf
+2015-06-22 16:10:35,641 WARN  io.prediction.workflow.WorkflowUtils$ [pio-server-akka.actor.default-dispatcher-3] - Non-empty parameters supplied to SentimentAnalysis.Serving, but its constructor does not accept any arguments. Stubbing with empty parameters.
+2015-06-22 16:10:36,565 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-2] - Starting remoting
+2015-06-22 16:10:36,778 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-2] - Remoting started; listening on addresses :[akka.tcp://sparkDriver@10.0.0.30:64106]
+2015-06-22 16:10:37,761 INFO  io.prediction.controller.Engine [pio-server-akka.actor.default-dispatcher-3] - Some persisted models are Unit, need to re-train.
+2015-06-22 16:11:02,798 INFO  io.prediction.controller.Engine [pio-server-akka.actor.default-dispatcher-3] - Loaded model SentimentAnalysis.Model for algorithm SentimentAnalysis.Algorithm
+2015-06-22 16:11:02,825 INFO  io.prediction.workflow.MasterActor [pio-server-akka.actor.default-dispatcher-2] - Undeploying any existing engine instance at http://0.0.0.0:8000
+2015-06-22 16:11:02,887 WARN  io.prediction.workflow.MasterActor [pio-server-akka.actor.default-dispatcher-5] - Nothing at http://0.0.0.0:8000
+2015-06-22 16:11:06,002 INFO  spray.can.server.HttpListener [pio-server-akka.actor.default-dispatcher-3] - Bound to /0.0.0.0:8000
+2015-06-22 16:11:06,003 INFO  io.prediction.workflow.MasterActor [pio-server-akka.actor.default-dispatcher-6] - Engine is deployed and running. Engine API is live at http://0.0.0.0:8000.
+2015-06-22 16:11:11,647 WARN  com.github.fommil.netlib.BLAS [ForkJoinPool-2-worker-7] - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2015-06-22 16:11:11,648 WARN  com.github.fommil.netlib.BLAS [ForkJoinPool-2-worker-7] - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2015-06-22 16:11:18,479 INFO  io.prediction.tools.console.Console$ [main] - Using existing engine manifest JSON at /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/manifest.json
+2015-06-22 16:11:18,491 WARN  io.prediction.tools.console.Template$ [main] - template.json does not exist. Template metadata will not be available. (This is safe to ignore if you are not working on a template.)
+2015-06-22 16:11:20,306 INFO  io.prediction.tools.Runner$ [main] - Submission command: /usr/local/Cellar/apache-spark/1.3.1_1/bin/spark-submit --class io.prediction.workflow.CreateWorkflow --jars file:/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/SentimentAnalysis-assembly-0.1-SNAPSHOT-deps.jar,file:/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/sentimentanalysis_2.10-0.1-SNAPSHOT.jar --files file:/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/conf/log4j.properties --driver-class-path /Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/conf file:/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/lib/pio-assembly-0.9.4-SNAPSHOT.jar --engine-id NQe7lKFnNo8SGNfw4d5EzQT31JOeilUy --engine-version aa1327e930bc9a1976f78a49cc7dd997a272c84c --engine-variant file:/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/engine.json --verbosity 0 --json-extractor Both --env PIO_ENV_LOADED=1,PIO_STORAGE_REPOSITORIES_METADATA_NAME=pio_meta,PIO_FS_BASEDIR=/Users/Marco/.pio_store,PIO_HOME=/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT,PIO_FS_ENGINESDIR=/Users/Marco/.pio_store/engines,PIO_STORAGE_SOURCES_PGSQL_URL=jdbc:postgresql://localhost/pio,PIO_STORAGE_REPOSITORIES_METADATA_SOURCE=PGSQL,PIO_STORAGE_REPOSITORIES_MODELDATA_SOURCE=PGSQL,PIO_STORAGE_REPOSITORIES_EVENTDATA_NAME=pio_event,PIO_STORAGE_SOURCES_PGSQL_PASSWORD=pio,PIO_STORAGE_SOURCES_PGSQL_TYPE=jdbc,PIO_FS_TMPDIR=/Users/Marco/.pio_store/tmp,PIO_STORAGE_SOURCES_PGSQL_USERNAME=pio,PIO_STORAGE_REPOSITORIES_MODELDATA_NAME=pio_model,PIO_STORAGE_REPOSITORIES_EVENTDATA_SOURCE=PGSQL,PIO_CONF_DIR=/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/conf
+2015-06-22 16:11:31,404 INFO  io.prediction.controller.Engine [main] - Extracting datasource params...
+2015-06-22 16:11:31,838 INFO  io.prediction.workflow.WorkflowUtils$ [main] - No 'name' is found. Default empty String will be used.
+2015-06-22 16:11:31,875 INFO  io.prediction.controller.Engine [main] - Datasource params: (,DataSourceParams(application))
+2015-06-22 16:11:31,876 INFO  io.prediction.controller.Engine [main] - Extracting preparator params...
+2015-06-22 16:11:31,884 INFO  io.prediction.workflow.WorkflowUtils$ [main] - No 'name' is found. Default empty String will be used.
+2015-06-22 16:11:31,897 INFO  io.prediction.controller.Engine [main] - Preparator params: (,PreparatorParams(2))
+2015-06-22 16:11:31,905 INFO  io.prediction.controller.Engine [main] - Extracting serving params...
+2015-06-22 16:11:31,907 INFO  io.prediction.controller.Engine [main] - Serving params: (,Empty)
+2015-06-22 16:11:38,459 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-3] - Starting remoting
+2015-06-22 16:11:39,479 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-3] - Remoting started; listening on addresses :[akka.tcp://sparkDriver@10.0.0.30:64130]
+2015-06-22 16:11:40,635 WARN  org.spark-project.jetty.util.component.AbstractLifeCycle [main] - FAILED SelectChannelConnector@0.0.0.0:4040: java.net.BindException: Address already in use
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:437)
+	at sun.nio.ch.Net.bind(Net.java:429)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.spark-project.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187)
+	at org.spark-project.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316)
+	at org.spark-project.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265)
+	at org.spark-project.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.spark-project.jetty.server.Server.doStart(Server.java:293)
+	at org.spark-project.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.apache.spark.ui.JettyUtils$.org$apache$spark$ui$JettyUtils$$connect$1(JettyUtils.scala:199)
+	at org.apache.spark.ui.JettyUtils$$anonfun$2.apply(JettyUtils.scala:209)
+	at org.apache.spark.ui.JettyUtils$$anonfun$2.apply(JettyUtils.scala:209)
+	at org.apache.spark.util.Utils$$anonfun$startServiceOnPort$1.apply$mcVI$sp(Utils.scala:1837)
+	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:141)
+	at org.apache.spark.util.Utils$.startServiceOnPort(Utils.scala:1828)
+	at org.apache.spark.ui.JettyUtils$.startJettyServer(JettyUtils.scala:209)
+	at org.apache.spark.ui.WebUI.bind(WebUI.scala:120)
+	at org.apache.spark.SparkContext$$anonfun$12.apply(SparkContext.scala:309)
+	at org.apache.spark.SparkContext$$anonfun$12.apply(SparkContext.scala:309)
+	at scala.Option.foreach(Option.scala:236)
+	at org.apache.spark.SparkContext.<init>(SparkContext.scala:309)
+	at io.prediction.workflow.WorkflowContext$.apply(WorkflowContext.scala:42)
+	at io.prediction.workflow.CoreWorkflow$.runTrain(CoreWorkflow.scala:57)
+	at io.prediction.workflow.CreateWorkflow$.main(CreateWorkflow.scala:246)
+	at io.prediction.workflow.CreateWorkflow.main(CreateWorkflow.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.spark.deploy.SparkSubmit$.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:569)
+	at org.apache.spark.deploy.SparkSubmit$.doRunMain$1(SparkSubmit.scala:166)
+	at org.apache.spark.deploy.SparkSubmit$.submit(SparkSubmit.scala:189)
+	at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:110)
+	at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)
+2015-06-22 16:11:40,646 WARN  org.spark-project.jetty.util.component.AbstractLifeCycle [main] - FAILED org.spark-project.jetty.server.Server@1daf3b44: java.net.BindException: Address already in use
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:437)
+	at sun.nio.ch.Net.bind(Net.java:429)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.spark-project.jetty.server.nio.SelectChannelConnector.open(SelectChannelConnector.java:187)
+	at org.spark-project.jetty.server.AbstractConnector.doStart(AbstractConnector.java:316)
+	at org.spark-project.jetty.server.nio.SelectChannelConnector.doStart(SelectChannelConnector.java:265)
+	at org.spark-project.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.spark-project.jetty.server.Server.doStart(Server.java:293)
+	at org.spark-project.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:64)
+	at org.apache.spark.ui.JettyUtils$.org$apache$spark$ui$JettyUtils$$connect$1(JettyUtils.scala:199)
+	at org.apache.spark.ui.JettyUtils$$anonfun$2.apply(JettyUtils.scala:209)
+	at org.apache.spark.ui.JettyUtils$$anonfun$2.apply(JettyUtils.scala:209)
+	at org.apache.spark.util.Utils$$anonfun$startServiceOnPort$1.apply$mcVI$sp(Utils.scala:1837)
+	at scala.collection.immutable.Range.foreach$mVc$sp(Range.scala:141)
+	at org.apache.spark.util.Utils$.startServiceOnPort(Utils.scala:1828)
+	at org.apache.spark.ui.JettyUtils$.startJettyServer(JettyUtils.scala:209)
+	at org.apache.spark.ui.WebUI.bind(WebUI.scala:120)
+	at org.apache.spark.SparkContext$$anonfun$12.apply(SparkContext.scala:309)
+	at org.apache.spark.SparkContext$$anonfun$12.apply(SparkContext.scala:309)
+	at scala.Option.foreach(Option.scala:236)
+	at org.apache.spark.SparkContext.<init>(SparkContext.scala:309)
+	at io.prediction.workflow.WorkflowContext$.apply(WorkflowContext.scala:42)
+	at io.prediction.workflow.CoreWorkflow$.runTrain(CoreWorkflow.scala:57)
+	at io.prediction.workflow.CreateWorkflow$.main(CreateWorkflow.scala:246)
+	at io.prediction.workflow.CreateWorkflow.main(CreateWorkflow.scala)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.apache.spark.deploy.SparkSubmit$.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:569)
+	at org.apache.spark.deploy.SparkSubmit$.doRunMain$1(SparkSubmit.scala:166)
+	at org.apache.spark.deploy.SparkSubmit$.submit(SparkSubmit.scala:189)
+	at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:110)
+	at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)
+2015-06-22 16:11:40,760 WARN  org.apache.spark.util.Utils [main] - Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+2015-06-22 16:11:43,444 INFO  io.prediction.controller.Engine$ [main] - EngineWorkflow.train
+2015-06-22 16:11:43,448 INFO  io.prediction.controller.Engine$ [main] - DataSource: SentimentAnalysis.DataSource@44b21f9f
+2015-06-22 16:11:43,449 INFO  io.prediction.controller.Engine$ [main] - Preparator: SentimentAnalysis.Preparator@4288d98e
+2015-06-22 16:11:43,450 INFO  io.prediction.controller.Engine$ [main] - AlgorithmList: List(SentimentAnalysis.Algorithm@78a0ff63)
+2015-06-22 16:11:43,455 INFO  io.prediction.controller.Engine$ [main] - Data santiy check is on.
+2015-06-22 16:11:46,741 INFO  io.prediction.controller.Engine$ [main] - SentimentAnalysis.TrainingData supports data sanity check. Performing check.
+2015-06-22 16:12:21,555 INFO  io.prediction.tools.console.Console$ [main] - Using existing engine manifest JSON at /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/manifest.json
+2015-06-22 16:12:21,560 WARN  io.prediction.tools.console.Template$ [main] - template.json does not exist. Template metadata will not be available. (This is safe to ignore if you are not working on a template.)
+2015-06-22 16:12:21,605 INFO  io.prediction.tools.console.Console$ [main] - Using command '/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/sbt/sbt' at the current working directory to build.
+2015-06-22 16:12:21,606 INFO  io.prediction.tools.console.Console$ [main] - If the path above is incorrect, this process will fail.
+2015-06-22 16:12:21,606 INFO  io.prediction.tools.console.Console$ [main] - Uber JAR disabled. Making sure lib/pio-assembly-0.9.4-SNAPSHOT.jar is absent.
+2015-06-22 16:12:21,607 INFO  io.prediction.tools.console.Console$ [main] - Going to run: /Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/sbt/sbt  package assemblyPackageDependency
+2015-06-22 16:12:46,742 INFO  io.prediction.tools.console.Console$ [main] - Build finished successfully.
+2015-06-22 16:12:46,743 INFO  io.prediction.tools.console.Console$ [main] - Looking for an engine...
+2015-06-22 16:12:46,752 INFO  io.prediction.tools.console.Console$ [main] - Found SentimentAnalysis-assembly-0.1-SNAPSHOT-deps.jar
+2015-06-22 16:12:46,752 INFO  io.prediction.tools.console.Console$ [main] - Found sentimentanalysis_2.10-0.1-SNAPSHOT.jar
+2015-06-22 16:12:47,746 INFO  io.prediction.tools.RegisterEngine$ [main] - Registering engine NQe7lKFnNo8SGNfw4d5EzQT31JOeilUy aa1327e930bc9a1976f78a49cc7dd997a272c84c
+2015-06-22 16:12:47,763 INFO  io.prediction.tools.console.Console$ [main] - Your engine is ready for training.
+2015-06-22 16:12:53,106 INFO  io.prediction.tools.console.Console$ [main] - Using existing engine manifest JSON at /Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/manifest.json
+2015-06-22 16:12:53,109 WARN  io.prediction.tools.console.Template$ [main] - template.json does not exist. Template metadata will not be available. (This is safe to ignore if you are not working on a template.)
+2015-06-22 16:12:53,954 INFO  io.prediction.tools.Runner$ [main] - Submission command: /usr/local/Cellar/apache-spark/1.3.1_1/bin/spark-submit --class io.prediction.workflow.CreateWorkflow --jars file:/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/SentimentAnalysis-assembly-0.1-SNAPSHOT-deps.jar,file:/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/sentimentanalysis_2.10-0.1-SNAPSHOT.jar --files file:/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/conf/log4j.properties --driver-class-path /Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/conf file:/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/lib/pio-assembly-0.9.4-SNAPSHOT.jar --engine-id NQe7lKFnNo8SGNfw4d5EzQT31JOeilUy --engine-version aa1327e930bc9a1976f78a49cc7dd997a272c84c --engine-variant file:/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/engine.json --verbosity 0 --json-extractor Both --env PIO_ENV_LOADED=1,PIO_STORAGE_REPOSITORIES_METADATA_NAME=pio_meta,PIO_FS_BASEDIR=/Users/Marco/.pio_store,PIO_HOME=/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT,PIO_FS_ENGINESDIR=/Users/Marco/.pio_store/engines,PIO_STORAGE_SOURCES_PGSQL_URL=jdbc:postgresql://localhost/pio,PIO_STORAGE_REPOSITORIES_METADATA_SOURCE=PGSQL,PIO_STORAGE_REPOSITORIES_MODELDATA_SOURCE=PGSQL,PIO_STORAGE_REPOSITORIES_EVENTDATA_NAME=pio_event,PIO_STORAGE_SOURCES_PGSQL_PASSWORD=pio,PIO_STORAGE_SOURCES_PGSQL_TYPE=jdbc,PIO_FS_TMPDIR=/Users/Marco/.pio_store/tmp,PIO_STORAGE_SOURCES_PGSQL_USERNAME=pio,PIO_STORAGE_REPOSITORIES_MODELDATA_NAME=pio_model,PIO_STORAGE_REPOSITORIES_EVENTDATA_SOURCE=PGSQL,PIO_CONF_DIR=/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/conf
+2015-06-22 16:12:56,817 INFO  io.prediction.controller.Engine [main] - Extracting datasource params...
+2015-06-22 16:12:56,928 INFO  io.prediction.workflow.WorkflowUtils$ [main] - No 'name' is found. Default empty String will be used.
+2015-06-22 16:12:56,944 INFO  io.prediction.controller.Engine [main] - Datasource params: (,DataSourceParams(application))
+2015-06-22 16:12:56,945 INFO  io.prediction.controller.Engine [main] - Extracting preparator params...
+2015-06-22 16:12:56,946 INFO  io.prediction.workflow.WorkflowUtils$ [main] - No 'name' is found. Default empty String will be used.
+2015-06-22 16:12:56,949 INFO  io.prediction.controller.Engine [main] - Preparator params: (,PreparatorParams(2))
+2015-06-22 16:12:56,955 INFO  io.prediction.controller.Engine [main] - Extracting serving params...
+2015-06-22 16:12:56,957 INFO  io.prediction.controller.Engine [main] - Serving params: (,Empty)
+2015-06-22 16:12:58,150 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-2] - Starting remoting
+2015-06-22 16:12:58,442 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-2] - Remoting started; listening on addresses :[akka.tcp://sparkDriver@10.0.0.30:64153]
+2015-06-22 16:12:59,992 INFO  io.prediction.controller.Engine$ [main] - EngineWorkflow.train
+2015-06-22 16:12:59,993 INFO  io.prediction.controller.Engine$ [main] - DataSource: SentimentAnalysis.DataSource@6a6f6c7e
+2015-06-22 16:12:59,993 INFO  io.prediction.controller.Engine$ [main] - Preparator: SentimentAnalysis.Preparator@6c101cc1
+2015-06-22 16:12:59,993 INFO  io.prediction.controller.Engine$ [main] - AlgorithmList: List(SentimentAnalysis.Algorithm@201c3cda)
+2015-06-22 16:12:59,994 INFO  io.prediction.controller.Engine$ [main] - Data santiy check is on.
+2015-06-22 16:13:01,375 INFO  io.prediction.controller.Engine$ [main] - SentimentAnalysis.TrainingData supports data sanity check. Performing check.
+2015-06-22 16:13:07,720 INFO  io.prediction.controller.Engine$ [main] - SentimentAnalysis.PreparedData does not support data sanity check. Skipping check.
+2015-06-22 16:13:17,142 INFO  io.prediction.controller.Engine$ [main] - SentimentAnalysis.Model does not support data sanity check. Skipping check.
+2015-06-22 16:13:17,143 INFO  io.prediction.controller.Engine$ [main] - EngineWorkflow.train completed
+2015-06-22 16:13:17,145 INFO  io.prediction.controller.Engine [main] - engineInstanceId=cb808654-5670-4bdb-a435-d0759230ddae
+2015-06-22 16:13:17,260 INFO  io.prediction.workflow.CoreWorkflow$ [main] - Inserting persistent model
+2015-06-22 16:13:17,518 INFO  io.prediction.workflow.CoreWorkflow$ [main] - Updating engine instance
+2015-06-22 16:13:17,535 INFO  io.prediction.workflow.CoreWorkflow$ [main] - Training completed successfully.
+2015-06-22 16:13:24,498 WARN  io.prediction.tools.console.Template$ [main] - template.json does not exist. Template metadata will not be available. (This is safe to ignore if you are not working on a template.)
+2015-06-22 16:13:26,785 INFO  io.prediction.tools.Runner$ [main] - Submission command: /usr/local/Cellar/apache-spark/1.3.1_1/bin/spark-submit --class io.prediction.workflow.CreateServer --jars file:/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/SentimentAnalysis-assembly-0.1-SNAPSHOT-deps.jar,file:/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/target/scala-2.10/sentimentanalysis_2.10-0.1-SNAPSHOT.jar --files file:/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/conf/log4j.properties --driver-class-path /Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/conf file:/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/lib/pio-assembly-0.9.4-SNAPSHOT.jar --engineInstanceId cb808654-5670-4bdb-a435-d0759230ddae --engine-variant file:/Users/Marco/Galvanize/ggtt345/SentimentAnalysisSolutions/engine.json --ip 0.0.0.0 --port 8000 --event-server-ip 0.0.0.0 --event-server-port 7070 --json-extractor Both --env PIO_ENV_LOADED=1,PIO_STORAGE_REPOSITORIES_METADATA_NAME=pio_meta,PIO_FS_BASEDIR=/Users/Marco/.pio_store,PIO_HOME=/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT,PIO_FS_ENGINESDIR=/Users/Marco/.pio_store/engines,PIO_STORAGE_SOURCES_PGSQL_URL=jdbc:postgresql://localhost/pio,PIO_STORAGE_REPOSITORIES_METADATA_SOURCE=PGSQL,PIO_STORAGE_REPOSITORIES_MODELDATA_SOURCE=PGSQL,PIO_STORAGE_REPOSITORIES_EVENTDATA_NAME=pio_event,PIO_STORAGE_SOURCES_PGSQL_PASSWORD=pio,PIO_STORAGE_SOURCES_PGSQL_TYPE=jdbc,PIO_FS_TMPDIR=/Users/Marco/.pio_store/tmp,PIO_STORAGE_SOURCES_PGSQL_USERNAME=pio,PIO_STORAGE_REPOSITORIES_MODELDATA_NAME=pio_model,PIO_STORAGE_REPOSITORIES_EVENTDATA_SOURCE=PGSQL,PIO_CONF_DIR=/Users/Marco/PredictionIO/PredictionIO-0.9.4-SNAPSHOT/conf
+2015-06-22 16:13:35,477 WARN  io.prediction.workflow.WorkflowUtils$ [pio-server-akka.actor.default-dispatcher-4] - Non-empty parameters supplied to SentimentAnalysis.Serving, but its constructor does not accept any arguments. Stubbing with empty parameters.
+2015-06-22 16:13:39,076 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-4] - Starting remoting
+2015-06-22 16:13:39,715 INFO  Remoting [sparkDriver-akka.actor.default-dispatcher-2] - Remoting started; listening on addresses :[akka.tcp://sparkDriver@10.0.0.30:64172]
+2015-06-22 16:13:44,146 INFO  io.prediction.controller.Engine [pio-server-akka.actor.default-dispatcher-4] - Some persisted models are Unit, need to re-train.
+2015-06-22 16:14:19,635 INFO  io.prediction.controller.Engine [pio-server-akka.actor.default-dispatcher-4] - Loaded model SentimentAnalysis.Model for algorithm SentimentAnalysis.Algorithm
+2015-06-22 16:14:19,659 INFO  io.prediction.workflow.MasterActor [pio-server-akka.actor.default-dispatcher-3] - Undeploying any existing engine instance at http://0.0.0.0:8000
+2015-06-22 16:14:19,689 WARN  io.prediction.workflow.MasterActor [pio-server-akka.actor.default-dispatcher-3] - Nothing at http://0.0.0.0:8000
+2015-06-22 16:14:21,267 INFO  spray.can.server.HttpListener [pio-server-akka.actor.default-dispatcher-3] - Bound to /0.0.0.0:8000
+2015-06-22 16:14:21,268 INFO  io.prediction.workflow.MasterActor [pio-server-akka.actor.default-dispatcher-3] - Engine is deployed and running. Engine API is live at http://0.0.0.0:8000.
+2015-06-22 16:14:26,867 WARN  com.github.fommil.netlib.BLAS [ForkJoinPool-2-worker-7] - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2015-06-22 16:14:26,868 WARN  com.github.fommil.netlib.BLAS [ForkJoinPool-2-worker-7] - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS

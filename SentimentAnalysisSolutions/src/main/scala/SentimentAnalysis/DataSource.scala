@@ -8,6 +8,7 @@ import io.prediction.controller.EmptyActualResult
 import io.prediction.controller.EmptyEvaluationInfo
 import io.prediction.controller.Params
 import io.prediction.controller.PDataSource
+import io.prediction.controller.SanityCheck
 import io.prediction.data.store.PEventStore
 import org.apache.spark.SparkContext
 import org.apache.spark.rdd.RDD
@@ -44,7 +45,13 @@ case class Observation (
 case class TrainingData (
   data : RDD[Observation],
   specialChars : HashSet[String]
-) extends Serializable
+) extends Serializable with SanityCheck {
+
+
+  def sanityCheck: Unit = {
+    specialChars.foreach(println)
+  }
+}
 
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
@@ -63,9 +70,9 @@ class DataSource (
     val specialChars : HashSet[String]= HashSet(
       PEventStore.find(
         appName = dsp.appName, // Specify application name.
-        entityType = Some("stopword") // Specify entity type.
+        entityType = Some("special") // Specify entity type.
       )(sc).map(
-        event => event.properties.get[String]("word") // Get stopword.
+        event => event.properties.get[String]("char") // Get stopword.
       ).collect : _* // Multiple argument constructor.
     )
 
