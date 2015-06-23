@@ -20,6 +20,10 @@ case class PredictedResult(
   sentiment : String
 )
 
+case class ActualResult(
+sentiment : String
+)
+
 
 object SentimentEngine extends EngineFactory {
 

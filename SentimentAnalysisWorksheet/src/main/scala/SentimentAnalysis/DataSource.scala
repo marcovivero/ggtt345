@@ -23,7 +23,8 @@ import scala.collection.immutable.HashSet
 /// for any given functionality in the component.
 
 case class DataSourceParams (
-  appName : String // Needed to pull data from correct application.
+  appName : String, // Needed to pull data from correct application.
+  evalK : Option[Int]
 ) extends Params
 
 
@@ -53,7 +54,7 @@ case class TrainingData (
 
 class DataSource (
   dsp : DataSourceParams
-) extends PDataSource[TrainingData, EmptyEvaluationInfo, Query, EmptyActualResult] {
+) extends PDataSource[TrainingData, EmptyEvaluationInfo, Query, ActualResult] {
 
 
 
@@ -98,9 +99,24 @@ class DataSource (
 
   // This method MUST be implemented as part of the Data Source component.
   // Its functionality is factored out via readEventData.
+  override
   def readTraining (sc : SparkContext) : TrainingData = {
     readEventData(sc)
   }
+
+
+  // ----- EXERCISE 10 Start -------
+
+  // Implement the readEval function which returns evalK
+  // number of TrainingData objects, evaluation logs, and
+  // query/actual result pairs.
+
+  def readEval(sc: SparkContext):
+  Seq[(TrainingData, EmptyEvaluationInfo, RDD[(Query, ActualResult)])] = {
+
+  }
+
+  // ----- EXERCISE 10 End -------
 
 
 

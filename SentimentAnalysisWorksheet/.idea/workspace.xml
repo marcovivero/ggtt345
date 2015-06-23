@@ -87,6 +87,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SentimentAnalysisSolutions/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" afterPath="$PROJECT_DIR$/../SentimentAnalysisSolutions/project/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala" afterPath="$PROJECT_DIR$/../SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Algorithm.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala" afterPath="$PROJECT_DIR$/../SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/DataSource.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/SentimentAnalysis/DataSource.scala" afterPath="$PROJECT_DIR$/src/main/scala/SentimentAnalysis/DataSource.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/SentimentAnalysis/Engine.scala" afterPath="$PROJECT_DIR$/src/main/scala/SentimentAnalysis/Engine.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/SentimentAnalysis/Evaluation.scala" afterPath="$PROJECT_DIR$/src/main/scala/SentimentAnalysis/Evaluation.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala" afterPath="$PROJECT_DIR$/../SentimentAnalysisSolutions/src/main/scala/SentimentAnalysis/Preparator.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SentimentAnalysisSolutions/project/target/resolution-cache/reports/default-sentimentanalysissolutions-build-compile-internal.xml" afterPath="$PROJECT_DIR$/../SentimentAnalysisSolutions/project/target/resolution-cache/reports/default-sentimentanalysissolutions-build-compile-internal.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SentimentAnalysisSolutions/project/target/resolution-cache/reports/default-sentimentanalysissolutions-build-compile.xml" afterPath="$PROJECT_DIR$/../SentimentAnalysisSolutions/project/target/resolution-cache/reports/default-sentimentanalysissolutions-build-compile.xml" />
@@ -146,7 +149,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SentimentAnalysisSolutions/target/resolution-cache/io.prediction/sentimentanalysis_2.10/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/../SentimentAnalysisSolutions/target/resolution-cache/io.prediction/sentimentanalysis_2.10/0.1-SNAPSHOT/resolved.xml.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SentimentAnalysisSolutions/.idea/sbt.xml" afterPath="$PROJECT_DIR$/../SentimentAnalysisSolutions/.idea/sbt.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SentimentAnalysisSolutions/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../SentimentAnalysisSolutions/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SentimentAnalysis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -178,11 +180,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DataSource.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DataSource.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/SentimentAnalysis/DataSource.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="63" column="23" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.6697039">
+              <caret line="110" column="35" selection-start-line="110" selection-start-column="35" selection-end-line="110" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -198,12 +200,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Preparator.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Preparator.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/SentimentAnalysis/Preparator.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.261959">
+            <state vertical-scroll-proportion="0.0">
               <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Evaluation.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/SentimentAnalysis/Evaluation.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -212,7 +226,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/SentimentAnalysis/Engine.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -231,8 +245,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/scala/SentimentAnalysis/DataSource.scala" />
         <option value="$PROJECT_DIR$/engine.json" />
+        <option value="$PROJECT_DIR$/src/main/scala/SentimentAnalysis/Engine.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/SentimentAnalysis/Evaluation.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/SentimentAnalysis/DataSource.scala" />
       </list>
     </option>
   </component>
@@ -345,6 +361,36 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Preparator.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SentimentAnalysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SentimentAnalysisWorksheet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SentimentAnalysis" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Evaluation.scala" />
               <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -959,12 +1005,12 @@
       <created>1435008231055</created>
       <option name="number" value="Default" />
       <updated>1435008231055</updated>
-      <workItem from="1435008233572" duration="2895000" />
+      <workItem from="1435008233572" duration="4392000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2895000" />
+    <option name="totallyTimeSpent" value="4392000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1280" height="1414" extended-state="0" />
@@ -1006,14 +1052,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/SentimentAnalysis/Engine.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/engine.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.75">
@@ -1022,18 +1060,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/SentimentAnalysis/DataSource.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/SentimentAnalysis/Preparator.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="63" column="23" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
+          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/SentimentAnalysis/Preparator.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/SentimentAnalysis/Engine.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.261959">
-          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/SentimentAnalysis/Evaluation.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/SentimentAnalysis/DataSource.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6697039">
+          <caret line="110" column="35" selection-start-line="110" selection-start-column="35" selection-end-line="110" selection-end-column="35" />
           <folding />
         </state>
       </provider>
